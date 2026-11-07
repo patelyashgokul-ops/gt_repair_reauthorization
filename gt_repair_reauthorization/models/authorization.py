@@ -455,7 +455,7 @@ def _check_evidence(wizard):
         if wizard.evidence_email:
             raise ValidationError(_("Choose either recorded email evidence or an evidence file."))
         try:
-            raw = base64.b64decode(wizard.evidence_file, validate=True)
+            raw = wizard.evidence_file.content
         except (binascii.Error, ValueError, TypeError) as error:
             raise ValidationError(_("The evidence file is not valid base64 data.")) from error
         if not raw or len(raw) > MAX_EVIDENCE_BYTES:

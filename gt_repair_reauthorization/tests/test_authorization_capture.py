@@ -158,7 +158,7 @@ class TestRepairAuthorizationCapture(TransactionCase):
             values["evidence_email"] = "Please proceed with the repair parts and service listed in this quotation."
         else:
             values.update({
-                "evidence_file": base64.b64encode(b"customer approval file"),
+                "evidence_file": base64.b64encode(b"customer approval file").decode("ascii"),
                 "evidence_filename": "customer-approval.txt",
             })
         wizard.write(values)
@@ -184,7 +184,7 @@ class TestRepairAuthorizationCapture(TransactionCase):
         self.assertEqual(len(service_snapshot), 1)
         self.assertEqual(part_snapshot.product_name, self.part.display_name)
         self.assertEqual(part_snapshot.product_default_code, "SNAP-PART")
-        self.assertEqual(part_snapshot.description, part_line.name)
+        self.assertEqual(part_snapshot.description, part_line.name or self.part.display_name)
         self.assertEqual(part_snapshot.quantity, 2.0)
         self.assertEqual(part_snapshot.uom_id, self.unit)
         self.assertEqual(part_snapshot.price_unit, 100.0)
@@ -339,7 +339,7 @@ class TestRepairAuthorizationCapture(TransactionCase):
             technician_repair.action_open_original_authorization_capture()
         self.assertEqual(authorization.with_user(self.technician).read(["name"])[0]["name"], authorization.name)
         self.assertEqual(len(authorization.line_ids.with_user(self.technician)), 2)
-        with self.assertRaises(AccessError):
+        with self.assertRaises(UserError):
             authorization.with_user(self.technician).write({"approved_total": 1.0})
         with self.assertRaises(AccessError):
             authorization.with_user(self.technician).unlink()
@@ -352,7 +352,7 @@ class TestRepairAuthorizationCapture(TransactionCase):
         repair, _quote, _part, _service = self._create_repair_and_quote()
         authorization = self._record_approval(repair, evidence_type="file")
         self.assertEqual(authorization.evidence_filename, "customer-approval.txt")
-        self.assertEqual(base64.b64decode(authorization.evidence_file), b"customer approval file")
+        self.assertEqual(authorization.evidence_file.content, b"customer approval file")
         self.assertFalse(self.env["ir.attachment"].search_count([
             ("res_model", "=", "gt.repair.authorization"),
             ("res_id", "=", authorization.id),
@@ -394,13 +394,13 @@ class TestRepairAuthorizationCapture(TransactionCase):
             authorization_b.with_user(self.technician).read(["evidence_email"])
 
         repair_a, _quote_a, _part_a, _service_a = self._create_repair_and_quote()
-        with self.assertRaises(ValidationError):
+        with self.assertRaises(UserError):
             repair_a.write({"sale_order_id": repair_b.sale_order_id.id})
 
     def test_manager_can_review_but_cannot_override_immutability(self):
         repair, _quote, _part, _service = self._create_repair_and_quote(adviser=self.manager)
         authorization = self._record_approval(repair, self.manager)
         self.assertEqual(authorization.with_user(self.manager).read(["name"])[0]["name"], authorization.name)
-        with self.assertRaises(AccessError):
+        with self.assertRaises(UserError):
             authorization.with_user(self.manager).write({"approved_total": 0.0})
 

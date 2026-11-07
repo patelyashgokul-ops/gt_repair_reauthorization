@@ -4234,3 +4234,546 @@ Stack (most recent call last):
 2026-11-07 07:01:01,156 13804 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
 2026-11-07 07:01:01,156 13804 INFO gt_reauth_p1_20261107 odoo.addons.bus.websocket: Disconnecting 0 websockets
 2026-11-07 07:01:01,266 13804 INFO gt_reauth_p1_20261107 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 
+2026-11-07 07:02:55,399 18936 WARNING ? odoo.tools.config: option --without-demo: since 19.0, invalid boolean value: 'all', assume True
+2026-11-07 07:02:55,400 18936 INFO ? odoo: Odoo version 20.0
+2026-11-07 07:02:55,400 18936 INFO ? odoo: Using configuration file at c:\pycharmprojects\odoo20\odoo-20.0\odoo.conf
+2026-11-07 07:02:55,400 18936 INFO ? odoo: addons paths: _NamespacePath(['C:\\PycharmProjects\\odoo20\\odoo-20.0\\odoo\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\.test_data\\addons\\20.0', 'c:\\pycharmprojects\\odoo20\\odoo-20.0\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons'])
+2026-11-07 07:02:55,400 18936 INFO ? odoo: database: odoo@localhost:5432
+2026-11-07 07:02:57,171 18936 INFO ? odoo.service.server: HTTP service running on 127.0.0.1:8071
+2026-11-07 07:02:57,224 18936 INFO gt_reauth_p1_20261107 odoo.tests.common: Importing test framework
+2026-11-07 07:02:57,381 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading 1 modules...
+2026-11-07 07:02:57,386 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra)
+2026-11-07 07:02:57,439 18936 INFO gt_reauth_p1_20261107 odoo.tools.version_tag_reset: Detected tp_versions_used at offset 410, reset enabled
+2026-11-07 07:02:57,440 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: updating modules list
+2026-11-07 07:02:57,452 18936 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2026-11-07 07:02:58,992 18936 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 07:02:58,993 18936 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 07:02:59,068 18936 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 07:02:59,068 18936 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 07:02:59,069 18936 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 07:02:59,069 18936 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 07:02:59,261 18936 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Repair Reauthorization'] to user __system__ #1 via n/a
+2026-11-07 07:02:59,261 18936 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Repair Reauthorization'] to user __system__ #1 via n/a
+2026-11-07 07:03:00,217 18936 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 07:03:00,275 18936 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 07:03:00,275 18936 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 07:03:00,337 18936 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a
+2026-11-07 07:03:00,461 18936 WARNING gt_reauth_p1_20261107 odoo.modules.module_graph: module supplier_rebate_recovery: not installable, skipped
+2026-11-07 07:03:00,467 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading 102 modules...
+2026-11-07 07:03:01,289 18936 WARNING gt_reauth_p1_20261107 odoo.addons.mail.controllers.attachment: markdown2 is not installed, markdown will not be rendered
+2026-11-07 07:03:03,408 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module gt_repair_reauthorization (102/102)
+2026-11-07 07:03:03,844 18936 INFO gt_reauth_p1_20261107 odoo.registry: module gt_repair_reauthorization: creating or updating database tables
+2026-11-07 07:03:04,050 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/security/authorization_security.xml
+2026-11-07 07:03:04,266 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/security/ir.access.csv
+2026-11-07 07:03:04,383 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/views/authorization_views.xml
+2026-11-07 07:03:04,508 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/views/repair_views.xml
+2026-11-07 07:03:04,576 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/views/sale_order_views.xml
+2026-11-07 07:03:04,709 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/wizard/authorization_capture_views.xml
+2026-11-07 07:03:04,750 18936 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:03:04,767 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module gt_repair_reauthorization loaded in 1.36s, 363 queries (+363 other)
+2026-11-07 07:03:04,767 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: 102 modules loaded in 4.30s, 363 queries (+363 extra)
+2026-11-07 07:03:04,768 18936 WARNING gt_reauth_p1_20261107 odoo.modules.module_graph: module supplier_rebate_recovery: not installable, skipped
+2026-11-07 07:03:04,769 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading 102 modules...
+2026-11-07 07:03:04,769 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: 102 modules loaded in 0.00s, 0 queries (+0 extra)
+2026-11-07 07:03:05,024 18936 ERROR gt_reauth_p1_20261107 odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['supplier_rebate_recovery']
+2026-11-07 07:03:05,197 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.rule.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,197 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.detection is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,331 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.tier is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,332 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.eligibility is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,332 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.transaction is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,332 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.calculation.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,332 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.accrual.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,332 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,332 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.response is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,332 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.historical.item is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,332 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.event is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,332 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.notification.engine is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,338 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.accrual.reversal is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,338 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.operation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,338 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.evidence.upload is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,338 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.detection.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,338 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.historical.scan.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,338 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.operation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,354 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.agreement is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,354 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.calculation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,354 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.accrual is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,383 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.accounting.config is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,383 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,383 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.evidence is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,383 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.document is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,383 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model report.supplier_rebate_recovery.report_claim_official is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,383 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model report.supplier_rebate_recovery.report_claim_preview is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,383 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.exception is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.exception.observation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.detection.scope is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.historical.evaluation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.opportunity is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.historical.result is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.historical.scan is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.case is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.communication is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.negotiation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.response is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.dispute is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.followup is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.settlement.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.settlement.guard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,384 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.settlement is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.notification.rule is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.notification.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.notification.event is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.dashboard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.reporting.service is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.report.snapshot is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model report.supplier_rebate_recovery.report_financial_snapshot is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.wizard.security is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.amendment.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.calculation.reason is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.settlement.match.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.settlement.match.candidate is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,385 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.report.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:03:05,460 18936 INFO gt_reauth_p1_20261107 odoo.registry: verifying fields for every extended model
+2026-11-07 07:03:06,676 18936 INFO gt_reauth_p1_20261107 odoo.modules.loading: Modules loaded.
+2026-11-07 07:03:06,694 18936 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:03:06,706 18936 INFO gt_reauth_p1_20261107 odoo.registry: Registry loaded in 9.530s
+2026-11-07 07:03:06,707 18936 INFO gt_reauth_p1_20261107 odoo.service.server: Starting post tests
+2026-11-07 07:03:07,828 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_capture_requires_customer_evidence_and_explicit_scope_confirmation ...
+2026-11-07 07:03:09,003 18936 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x00000289B2B65F30, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 444, code _check_evidence>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 238, in test_capture_requires_customer_evidence_and_explicit_scope_confirmation
+    wizard.action_record_authorization()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 52, in action_record_authorization
+    repair, sale_order, scope_lines, totals = _build_original_snapshot(self)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 492, in _build_original_snapshot
+    _check_evidence(wizard)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 444, in _check_evidence
+    raise ValidationError(_("Customer approval evidence is required."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:03:09,036 18936 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x00000289B2B65030, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 446, code _check_evidence>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 246, in test_capture_requires_customer_evidence_and_explicit_scope_confirmation
+    wizard.action_record_authorization()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 52, in action_record_authorization
+    repair, sale_order, scope_lines, totals = _build_original_snapshot(self)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 492, in _build_original_snapshot
+    _check_evidence(wizard)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 446, in _check_evidence
+    raise ValidationError(_("Confirm that the evidence explicitly approves this customer, quotation revision, and displayed repair scope."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:03:09,040 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_confirmed_quotation_alone_is_not_customer_evidence ...
+2026-11-07 07:03:09,622 18936 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x00000289B2B0EE30, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 444, code _check_evidence>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 303, in test_confirmed_quotation_alone_is_not_customer_evidence
+    wizard.action_record_authorization()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 52, in action_record_authorization
+    repair, sale_order, scope_lines, totals = _build_original_snapshot(self)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 492, in _build_original_snapshot
+    _check_evidence(wizard)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 444, in _check_evidence
+    raise ValidationError(_("Customer approval evidence is required."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:03:09,630 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_duplicate_capture_is_prevented_and_snapshots_cannot_be_edited_or_deleted ...
+2026-11-07 07:03:10,300 18936 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x00000289B2A41340, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 491, code _build_original_snapshot>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 322, in test_duplicate_capture_is_prevented_and_snapshots_cannot_be_edited_or_deleted
+    second_wizard.action_record_authorization()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 52, in action_record_authorization
+    repair, sale_order, scope_lines, totals = _build_original_snapshot(self)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 491, in _build_original_snapshot
+    raise UserError(_("An original authorization has already been recorded for this repair."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:03:10,320 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_file_evidence_is_stored_on_restricted_snapshot_without_public_attachment ...
+2026-11-07 07:03:10,794 18936 INFO gt_reauth_p1_20261107 odoo.models: Access Denied by ACLs for operation: read, uid: 30, model: gt.repair.authorization, field: evidence_file
+2026-11-07 07:03:10,805 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_manager_can_review_but_cannot_override_immutability ...
+2026-11-07 07:03:11,348 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_multi_company_isolation_and_cross_company_link_rejection ...
+2026-11-07 07:03:11,607 18936 INFO gt_reauth_p1_20261107 odoo.addons.base.models.res_users: Group change: user 1 with IP n/a changed groups of user 1 who belonged to [58, 49, 30, 37, 45, 23, 46, 55, 35, 10, 9, 60, 19, 5, 16] with changes [(<Command.LINK: 4>, 6, 0)]
+2026-11-07 07:03:13,351 18936 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_access: Access Denied for operation: read on record ids: [10], uid: 30, model: gt.repair.authorization
+2026-11-07 07:03:13,363 18936 INFO gt_reauth_p1_20261107 odoo.models: Access Denied by ACLs for operation: read, uid: 30, model: gt.repair.authorization, field: evidence_email
+2026-11-07 07:03:13,693 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_original_snapshot_preserves_scope_taxes_discounts_and_totals ...
+2026-11-07 07:03:14,135 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_source_edits_and_deletion_do_not_change_finalized_snapshot ...
+2026-11-07 07:03:14,632 18936 INFO gt_reauth_p1_20261107 odoo.models.unlink: User #1 deleted sale.order.line records with IDs: [104]
+2026-11-07 07:03:14,659 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_stale_capture_is_rejected_without_creating_snapshot ...
+2026-11-07 07:03:15,120 18936 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x00000289AF555640, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 495, code _build_original_snapshot>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 259, in test_stale_capture_is_rejected_without_creating_snapshot
+    wizard.action_record_authorization()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 52, in action_record_authorization
+    repair, sale_order, scope_lines, totals = _build_original_snapshot(self)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 495, in _build_original_snapshot
+    raise UserError(_("The quotation has changed; review the current scope before recording customer approval."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:03:15,126 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_technician_can_view_but_cannot_capture_edit_delete_or_read_evidence ...
+2026-11-07 07:03:15,538 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 07:03:15,538 18936 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ERROR: TestRepairAuthorizationCapture.test_technician_can_view_but_cannot_capture_edit_delete_or_read_evidence
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 345, in test_technician_can_view_but_cannot_capture_edit_delete_or_read_evidence
+    authorization.with_user(self.technician).unlink()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 114, in unlink
+    raise UserError(_("A finalized authorization snapshot cannot be deleted."))
+odoo.exceptions.UserError: A finalized authorization snapshot cannot be deleted.
+
+2026-11-07 07:03:15,540 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_unmapped_and_cancelled_quotation_lines_are_rejected ...
+2026-11-07 07:03:16,027 18936 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x00000289B2669F40, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 372, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 291, in test_unmapped_and_cancelled_quotation_lines_are_rejected
+    repair.with_user(self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 48, in action_open_original_authorization_capture
+    scope_lines = _validated_scope_lines(self, sale_order)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 372, in _validated_scope_lines
+    raise UserError(_("A quotation line cannot be matched to this repair. Remove or map the ambiguous line before recording approval."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:03:16,400 18936 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x00000289B266A8F0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 337, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 296, in test_unmapped_and_cancelled_quotation_lines_are_rejected
+    repair.with_user(self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 48, in action_open_original_authorization_capture
+    scope_lines = _validated_scope_lines(self, sale_order)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 337, in _validated_scope_lines
+    raise UserError(_("The quotation is cancelled; choose a current customer-facing quotation."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:03:16,404 18936 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_unrelated_quotation_and_customer_mismatch_are_rejected ...
+2026-11-07 07:03:16,752 18936 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x00000289B266A320, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 331, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 270, in test_unrelated_quotation_and_customer_mismatch_are_rejected
+    _validated_scope_lines(repair, unrelated)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 331, in _validated_scope_lines
+    raise UserError(_("This quotation does not belong to the selected repair."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:03:16,850 18936 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x00000289B266ACD0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 419, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 273, in test_unrelated_quotation_and_customer_mismatch_are_rejected
+    repair.with_user(self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 48, in action_open_original_authorization_capture
+    scope_lines = _validated_scope_lines(self, sale_order)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 419, in _validated_scope_lines
+    raise UserError(_("No identifiable chargeable repair lines are linked to this quotation."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:03:17,234 18936 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x00000289B266ACD0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 335, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 278, in test_unrelated_quotation_and_customer_mismatch_are_rejected
+    repair.with_user(self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 48, in action_open_original_authorization_capture
+    scope_lines = _validated_scope_lines(self, sale_order)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 335, in _validated_scope_lines
+    raise ValidationError(_("The quotation customer does not match the repair customer."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:03:17,281 18936 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_attachment: filestore gc 8 checked, 4 removed
+2026-11-07 07:03:17,290 18936 INFO gt_reauth_p1_20261107 odoo.service.server: 12 post-tests in 10.58s, 3857 queries
+2026-11-07 07:03:17,290 18936 INFO gt_reauth_p1_20261107 odoo.tests.stats: gt_repair_reauthorization: 14 tests 10.58s 3857 queries
+2026-11-07 07:03:17,290 18936 ERROR gt_reauth_p1_20261107 odoo.tests.result: 0 failed, 1 error(s) of 12 tests when loading database 'gt_reauth_p1_20261107'
+2026-11-07 07:03:17,290 18936 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Error: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_technician_can_view_but_cannot_capture_edit_delete_or_read_evidence - A finalized authorization snapshot cannot be [...]
+2026-11-07 07:03:17,290 18936 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Initiating shutdown
+2026-11-07 07:03:17,290 18936 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-11-07 07:03:17,291 18936 INFO gt_reauth_p1_20261107 odoo.addons.bus.websocket: Disconnecting 0 websockets
+2026-11-07 07:03:17,398 18936 INFO gt_reauth_p1_20261107 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 
