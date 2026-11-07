@@ -606,3 +606,1482 @@ Missing required field 'Operation' (operation) for model 'Access' (ir.access)
 2026-11-07 06:55:45,645 25596 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
 2026-11-07 06:55:45,645 25596 INFO gt_reauth_p1_20261107 odoo.addons.bus.websocket: Disconnecting 0 websockets
 2026-11-07 06:55:45,756 25596 INFO gt_reauth_p1_20261107 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 
+2026-11-07 06:57:00,227 3152 WARNING ? odoo.tools.config: option --without-demo: since 19.0, invalid boolean value: 'all', assume True
+2026-11-07 06:57:00,228 3152 INFO ? odoo: Odoo version 20.0
+2026-11-07 06:57:00,229 3152 INFO ? odoo: Using configuration file at c:\pycharmprojects\odoo20\odoo-20.0\odoo.conf
+2026-11-07 06:57:00,229 3152 INFO ? odoo: addons paths: _NamespacePath(['C:\\PycharmProjects\\odoo20\\odoo-20.0\\odoo\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\.test_data\\addons\\20.0', 'c:\\pycharmprojects\\odoo20\\odoo-20.0\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons'])
+2026-11-07 06:57:00,229 3152 INFO ? odoo: database: odoo@localhost:5432
+2026-11-07 06:57:02,061 3152 INFO ? odoo.service.server: HTTP service running on 127.0.0.1:8071
+2026-11-07 06:57:02,125 3152 INFO gt_reauth_p1_20261107 odoo.tests.common: Importing test framework
+2026-11-07 06:57:02,289 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading 1 modules...
+2026-11-07 06:57:02,296 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra)
+2026-11-07 06:57:02,357 3152 INFO gt_reauth_p1_20261107 odoo.tools.version_tag_reset: Detected tp_versions_used at offset 410, reset enabled
+2026-11-07 06:57:02,358 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: updating modules list
+2026-11-07 06:57:02,367 3152 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2026-11-07 06:57:03,991 3152 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 06:57:03,992 3152 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 06:57:04,060 3152 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 06:57:04,060 3152 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 06:57:04,062 3152 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 06:57:04,062 3152 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 06:57:04,299 3152 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Repair Reauthorization'] to user __system__ #1 via n/a
+2026-11-07 06:57:04,438 3152 WARNING gt_reauth_p1_20261107 odoo.modules.module_graph: module supplier_rebate_recovery: not installable, skipped
+2026-11-07 06:57:04,440 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading 102 modules...
+2026-11-07 06:57:05,314 3152 WARNING gt_reauth_p1_20261107 odoo.addons.mail.controllers.attachment: markdown2 is not installed, markdown will not be rendered
+2026-11-07 06:57:07,751 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module gt_repair_reauthorization (102/102)
+2026-11-07 06:57:08,275 3152 INFO gt_reauth_p1_20261107 odoo.registry: module gt_repair_reauthorization: creating or updating database tables
+2026-11-07 06:57:08,942 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/security/authorization_security.xml
+2026-11-07 06:57:09,174 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/security/ir.access.csv
+2026-11-07 06:57:09,275 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/views/authorization_views.xml
+2026-11-07 06:57:09,411 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/views/repair_views.xml
+2026-11-07 06:57:09,436 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/views/sale_order_views.xml
+2026-11-07 06:57:09,476 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/wizard/authorization_capture_views.xml
+2026-11-07 06:57:11,779 3152 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:57:11,807 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module gt_repair_reauthorization loaded in 4.06s, 1107 queries (+1107 other)
+2026-11-07 06:57:11,807 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: 102 modules loaded in 7.37s, 1107 queries (+1107 extra)
+2026-11-07 06:57:11,810 3152 WARNING gt_reauth_p1_20261107 odoo.modules.module_graph: module supplier_rebate_recovery: not installable, skipped
+2026-11-07 06:57:11,811 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading 102 modules...
+2026-11-07 06:57:11,811 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: 102 modules loaded in 0.00s, 0 queries (+0 extra)
+2026-11-07 06:57:12,195 3152 ERROR gt_reauth_p1_20261107 odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['supplier_rebate_recovery']
+2026-11-07 06:57:12,454 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.rule.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,455 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.detection is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,553 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.tier is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,553 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.eligibility is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,553 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.transaction is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,553 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.calculation.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,553 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.accrual.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,553 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,553 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.response is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,553 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.historical.item is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,553 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.event is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,553 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.notification.engine is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,557 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.accrual.reversal is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,557 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.operation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,557 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.evidence.upload is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,557 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.detection.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,557 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.historical.scan.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,557 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.operation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,570 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.agreement is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,570 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.calculation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,570 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.accrual is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,607 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.accounting.config is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,607 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,608 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.evidence is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,608 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.claim.document is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,608 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model report.supplier_rebate_recovery.report_claim_official is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,608 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model report.supplier_rebate_recovery.report_claim_preview is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,608 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.exception is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,608 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.exception.observation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,608 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.detection.scope is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,609 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.historical.evaluation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,609 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.opportunity is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,609 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.historical.result is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,609 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.historical.scan is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,609 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.case is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,609 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.communication is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,609 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.negotiation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,609 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.response is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,610 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.dispute is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,610 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.recovery.followup is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,610 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.settlement.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,610 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.settlement.guard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,610 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.settlement is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,610 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.notification.rule is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,610 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.notification.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,610 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.notification.event is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,610 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.dashboard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,611 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.reporting.service is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,611 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.report.snapshot is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,611 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model report.supplier_rebate_recovery.report_financial_snapshot is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,611 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.wizard.security is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,611 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.amendment.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,611 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.calculation.reason is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,611 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.settlement.match.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,611 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.settlement.match.candidate is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,611 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Model supplier.rebate.report.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 06:57:12,709 3152 INFO gt_reauth_p1_20261107 odoo.registry: verifying fields for every extended model
+2026-11-07 06:57:14,261 3152 INFO gt_reauth_p1_20261107 odoo.modules.loading: Modules loaded.
+2026-11-07 06:57:14,286 3152 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:57:14,295 3152 INFO gt_reauth_p1_20261107 odoo.registry: Registry loaded in 12.227s
+2026-11-07 06:57:14,295 3152 INFO gt_reauth_p1_20261107 odoo.service.server: Starting post tests
+2026-11-07 06:57:15,656 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_capture_requires_customer_evidence_and_explicit_scope_confirmation ...
+2026-11-07 06:57:16,418 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED9210CC0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 234, in test_capture_requires_customer_evidence_and_explicit_scope_confirmation
+    wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:16,420 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED9210CC0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 234, in test_capture_requires_customer_evidence_and_explicit_scope_confirmation
+    wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:16,423 3152 ERROR gt_reauth_p1_20261107 odoo.sql_db: bad query: b'INSERT INTO "gt_repair_authorization_capture_wizard" ("create_date", "create_uid", "evidence_type", "repair_id", "sale_order_id", "scope_preview", "source_fingerprint", "write_date", "write_uid") VALUES (\'2026-11-07T06:57:14.298014\'::timestamp, 17, \'email\', 1, 1, \'[SNAP-PART] Snapshot Test Part \xe2\x80\x94 2.0 Units; unit $\xc2\xa0100.00; discount 10.0%; total $\xc2\xa0198.00\nReplace and calibrate the component \xe2\x80\x94 1.5 Units; unit $\xc2\xa055.00; discount 0.0%; total $\xc2\xa082.50\', \'b99b16d358cb44d0f460ef89ce31b8a8478fdb80a69877bc57c6e38a1032603c\', \'2026-11-07T06:57:14.298014\'::timestamp, 17) RETURNING "id"'
+ERROR: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (1, 1, 1, 17, 17, b99b16d358cb44d0f460ef89ce31b8a8478fdb80a69877bc57c6e38a1032603c, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+2026-11-07 06:57:16,428 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 06:57:16,429 3152 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ERROR: TestRepairAuthorizationCapture.test_capture_requires_customer_evidence_and_explicit_scope_confirmation
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 234, in test_capture_requires_customer_evidence_and_explicit_scope_confirmation
+    wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 50, in action_open_original_authorization_capture
+    wizard = self.env["gt.repair.authorization.capture.wizard"].sudo().with_context({}).create({
+        "repair_id": self.id,
+    ...<2 lines>...
+        "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+    })
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 39, in create
+    return super().create(vals_list)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4192, in create
+    records = self._create(data_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4387, in _create
+    cr.execute(SQL(
+    ~~~~~~~~~~^^^^^
+        'INSERT INTO %s (%s) VALUES %s RETURNING "id"',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        SQL(', ').join(tuple(row) for row in rows),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))
+    ^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\sql_db.py", line 418, in execute
+    self._obj.execute(query, params)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (1, 1, 1, 17, 17, b99b16d358cb44d0f460ef89ce31b8a8478fdb80a69877bc57c6e38a1032603c, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+
+2026-11-07 06:57:16,430 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_confirmed_quotation_alone_is_not_customer_evidence ...
+2026-11-07 06:57:16,837 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED91E9080, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 296, in test_confirmed_quotation_alone_is_not_customer_evidence
+    wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:16,841 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED91E9080, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 296, in test_confirmed_quotation_alone_is_not_customer_evidence
+    wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:16,845 3152 ERROR gt_reauth_p1_20261107 odoo.sql_db: bad query: b'INSERT INTO "gt_repair_authorization_capture_wizard" ("create_date", "create_uid", "evidence_type", "repair_id", "sale_order_id", "scope_preview", "source_fingerprint", "write_date", "write_uid") VALUES (\'2026-11-07T06:57:14.298014\'::timestamp, 17, \'email\', 2, 2, \'[SNAP-PART] Snapshot Test Part \xe2\x80\x94 2.0 Units; unit $\xc2\xa0100.00; discount 10.0%; total $\xc2\xa0198.00\nReplace and calibrate the component \xe2\x80\x94 1.5 Units; unit $\xc2\xa055.00; discount 0.0%; total $\xc2\xa082.50\', \'f6032465e7ac21ee7aeda5d979bc47c62647cc1b049e5e2e12174dab2b449029\', \'2026-11-07T06:57:14.298014\'::timestamp, 17) RETURNING "id"'
+ERROR: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (2, 2, 2, 17, 17, f6032465e7ac21ee7aeda5d979bc47c62647cc1b049e5e2e12174dab2b449029, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+2026-11-07 06:57:16,851 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 06:57:16,851 3152 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ERROR: TestRepairAuthorizationCapture.test_confirmed_quotation_alone_is_not_customer_evidence
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 296, in test_confirmed_quotation_alone_is_not_customer_evidence
+    wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 50, in action_open_original_authorization_capture
+    wizard = self.env["gt.repair.authorization.capture.wizard"].sudo().with_context({}).create({
+        "repair_id": self.id,
+    ...<2 lines>...
+        "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+    })
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 39, in create
+    return super().create(vals_list)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4192, in create
+    records = self._create(data_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4387, in _create
+    cr.execute(SQL(
+    ~~~~~~~~~~^^^^^
+        'INSERT INTO %s (%s) VALUES %s RETURNING "id"',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        SQL(', ').join(tuple(row) for row in rows),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))
+    ^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\sql_db.py", line 418, in execute
+    self._obj.execute(query, params)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (2, 2, 2, 17, 17, f6032465e7ac21ee7aeda5d979bc47c62647cc1b049e5e2e12174dab2b449029, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+
+2026-11-07 06:57:16,853 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_duplicate_capture_is_prevented_and_snapshots_cannot_be_edited_or_deleted ...
+2026-11-07 06:57:17,285 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED8FF7EC0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 303, in test_duplicate_capture_is_prevented_and_snapshots_cannot_be_edited_or_deleted
+    first_wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:17,289 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED8FF7EC0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 303, in test_duplicate_capture_is_prevented_and_snapshots_cannot_be_edited_or_deleted
+    first_wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:17,294 3152 ERROR gt_reauth_p1_20261107 odoo.sql_db: bad query: b'INSERT INTO "gt_repair_authorization_capture_wizard" ("create_date", "create_uid", "evidence_type", "repair_id", "sale_order_id", "scope_preview", "source_fingerprint", "write_date", "write_uid") VALUES (\'2026-11-07T06:57:14.298014\'::timestamp, 17, \'email\', 3, 3, \'[SNAP-PART] Snapshot Test Part \xe2\x80\x94 2.0 Units; unit $\xc2\xa0100.00; discount 10.0%; total $\xc2\xa0198.00\nReplace and calibrate the component \xe2\x80\x94 1.5 Units; unit $\xc2\xa055.00; discount 0.0%; total $\xc2\xa082.50\', \'bec92a6f3cba8c4277c05f9d80bd54900005c44ad3e7409db772e393b8851cbd\', \'2026-11-07T06:57:14.298014\'::timestamp, 17) RETURNING "id"'
+ERROR: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (3, 3, 3, 17, 17, bec92a6f3cba8c4277c05f9d80bd54900005c44ad3e7409db772e393b8851cbd, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+2026-11-07 06:57:17,300 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 06:57:17,300 3152 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ERROR: TestRepairAuthorizationCapture.test_duplicate_capture_is_prevented_and_snapshots_cannot_be_edited_or_deleted
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 303, in test_duplicate_capture_is_prevented_and_snapshots_cannot_be_edited_or_deleted
+    first_wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 50, in action_open_original_authorization_capture
+    wizard = self.env["gt.repair.authorization.capture.wizard"].sudo().with_context({}).create({
+        "repair_id": self.id,
+    ...<2 lines>...
+        "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+    })
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 39, in create
+    return super().create(vals_list)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4192, in create
+    records = self._create(data_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4387, in _create
+    cr.execute(SQL(
+    ~~~~~~~~~~^^^^^
+        'INSERT INTO %s (%s) VALUES %s RETURNING "id"',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        SQL(', ').join(tuple(row) for row in rows),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))
+    ^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\sql_db.py", line 418, in execute
+    self._obj.execute(query, params)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (3, 3, 3, 17, 17, bec92a6f3cba8c4277c05f9d80bd54900005c44ad3e7409db772e393b8851cbd, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+
+2026-11-07 06:57:17,304 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_file_evidence_is_stored_on_restricted_snapshot_without_public_attachment ...
+2026-11-07 06:57:17,628 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED921AE80, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 348, in test_file_evidence_is_stored_on_restricted_snapshot_without_public_attachment
+    authorization = self._record_approval(repair, evidence_type="file")
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:17,630 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED921AE80, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 348, in test_file_evidence_is_stored_on_restricted_snapshot_without_public_attachment
+    authorization = self._record_approval(repair, evidence_type="file")
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:17,632 3152 ERROR gt_reauth_p1_20261107 odoo.sql_db: bad query: b'INSERT INTO "gt_repair_authorization_capture_wizard" ("create_date", "create_uid", "evidence_type", "repair_id", "sale_order_id", "scope_preview", "source_fingerprint", "write_date", "write_uid") VALUES (\'2026-11-07T06:57:14.298014\'::timestamp, 17, \'email\', 4, 4, \'[SNAP-PART] Snapshot Test Part \xe2\x80\x94 2.0 Units; unit $\xc2\xa0100.00; discount 10.0%; total $\xc2\xa0198.00\nReplace and calibrate the component \xe2\x80\x94 1.5 Units; unit $\xc2\xa055.00; discount 0.0%; total $\xc2\xa082.50\', \'a37a67872a7217296cd4b4db733ed46763694a0cfa080e7f64f22c77043edb86\', \'2026-11-07T06:57:14.298014\'::timestamp, 17) RETURNING "id"'
+ERROR: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (4, 4, 4, 17, 17, a37a67872a7217296cd4b4db733ed46763694a0cfa080e7f64f22c77043edb86, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+2026-11-07 06:57:17,635 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 06:57:17,635 3152 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ERROR: TestRepairAuthorizationCapture.test_file_evidence_is_stored_on_restricted_snapshot_without_public_attachment
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 348, in test_file_evidence_is_stored_on_restricted_snapshot_without_public_attachment
+    authorization = self._record_approval(repair, evidence_type="file")
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 50, in action_open_original_authorization_capture
+    wizard = self.env["gt.repair.authorization.capture.wizard"].sudo().with_context({}).create({
+        "repair_id": self.id,
+    ...<2 lines>...
+        "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+    })
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 39, in create
+    return super().create(vals_list)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4192, in create
+    records = self._create(data_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4387, in _create
+    cr.execute(SQL(
+    ~~~~~~~~~~^^^^^
+        'INSERT INTO %s (%s) VALUES %s RETURNING "id"',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        SQL(', ').join(tuple(row) for row in rows),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))
+    ^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\sql_db.py", line 418, in execute
+    self._obj.execute(query, params)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (4, 4, 4, 17, 17, a37a67872a7217296cd4b4db733ed46763694a0cfa080e7f64f22c77043edb86, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+
+2026-11-07 06:57:17,636 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_manager_can_review_but_cannot_override_immutability ...
+2026-11-07 06:57:18,017 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED9399440, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 396, in test_manager_can_review_but_cannot_override_immutability
+    authorization = self._record_approval(repair, self.manager)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:18,020 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED9399440, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 396, in test_manager_can_review_but_cannot_override_immutability
+    authorization = self._record_approval(repair, self.manager)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:18,023 3152 ERROR gt_reauth_p1_20261107 odoo.sql_db: bad query: b'INSERT INTO "gt_repair_authorization_capture_wizard" ("create_date", "create_uid", "evidence_type", "repair_id", "sale_order_id", "scope_preview", "source_fingerprint", "write_date", "write_uid") VALUES (\'2026-11-07T06:57:14.298014\'::timestamp, 19, \'email\', 5, 5, \'[SNAP-PART] Snapshot Test Part \xe2\x80\x94 2.0 Units; unit $\xc2\xa0100.00; discount 10.0%; total $\xc2\xa0198.00\nReplace and calibrate the component \xe2\x80\x94 1.5 Units; unit $\xc2\xa055.00; discount 0.0%; total $\xc2\xa082.50\', \'32dc5dfc4cabac821c763ae01759e6ac63c99ca256aed489402b5895bfb3fd29\', \'2026-11-07T06:57:14.298014\'::timestamp, 19) RETURNING "id"'
+ERROR: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (5, 5, 5, 19, 19, 32dc5dfc4cabac821c763ae01759e6ac63c99ca256aed489402b5895bfb3fd29, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+2026-11-07 06:57:18,026 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 06:57:18,026 3152 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ERROR: TestRepairAuthorizationCapture.test_manager_can_review_but_cannot_override_immutability
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 396, in test_manager_can_review_but_cannot_override_immutability
+    authorization = self._record_approval(repair, self.manager)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 50, in action_open_original_authorization_capture
+    wizard = self.env["gt.repair.authorization.capture.wizard"].sudo().with_context({}).create({
+        "repair_id": self.id,
+    ...<2 lines>...
+        "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+    })
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 39, in create
+    return super().create(vals_list)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4192, in create
+    records = self._create(data_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4387, in _create
+    cr.execute(SQL(
+    ~~~~~~~~~~^^^^^
+        'INSERT INTO %s (%s) VALUES %s RETURNING "id"',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        SQL(', ').join(tuple(row) for row in rows),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))
+    ^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\sql_db.py", line 418, in execute
+    self._obj.execute(query, params)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (5, 5, 5, 19, 19, 32dc5dfc4cabac821c763ae01759e6ac63c99ca256aed489402b5895bfb3fd29, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+
+2026-11-07 06:57:18,028 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_multi_company_isolation_and_cross_company_link_rejection ...
+2026-11-07 06:57:18,231 3152 INFO gt_reauth_p1_20261107 odoo.addons.base.models.res_users: Group change: user 1 with IP n/a changed groups of user 1 who belonged to [58, 49, 30, 37, 45, 23, 46, 55, 35, 10, 9, 60, 19, 5, 16] with changes [(<Command.LINK: 4>, 6, 0)]
+2026-11-07 06:57:19,187 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 06:57:19,187 3152 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ERROR: TestRepairAuthorizationCapture.test_multi_company_isolation_and_cross_company_link_rejection
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 380, in test_multi_company_isolation_and_cross_company_link_rejection
+    authorization_b = self._record_approval(repair_b, adviser_b)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 39, in action_open_original_authorization_capture
+    self.check_access("read")
+    ~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 3457, in check_access
+    if self.has_access(operation):
+       ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 3478, in has_access
+    domain = self._access_domain(operation)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\cache.py", line 86, in lookup
+    return self.lookup(*args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\cache.py", line 145, in lookup
+    value = self.method(*args, **kwargs)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 3640, in _access_domain
+    eval_context = IrAccess._eval_context()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\addons\base\models\ir_access.py", line 322, in _eval_context
+    'company_ids': self.env.companies.ids,
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\functools.py", line 1126, in __get__
+    val = self.func(instance)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\environments.py", line 291, in companies
+    raise AccessError(self._("Access to unauthorized or invalid companies."))
+odoo.exceptions.AccessError: Access to unauthorized or invalid companies.
+
+2026-11-07 06:57:19,199 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_original_snapshot_preserves_scope_taxes_discounts_and_totals ...
+2026-11-07 06:57:19,452 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED9190F40, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 168, in test_original_snapshot_preserves_scope_taxes_discounts_and_totals
+    authorization = self._record_approval(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:19,454 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED9190F40, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 168, in test_original_snapshot_preserves_scope_taxes_discounts_and_totals
+    authorization = self._record_approval(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:19,456 3152 ERROR gt_reauth_p1_20261107 odoo.sql_db: bad query: b'INSERT INTO "gt_repair_authorization_capture_wizard" ("create_date", "create_uid", "evidence_type", "repair_id", "sale_order_id", "scope_preview", "source_fingerprint", "write_date", "write_uid") VALUES (\'2026-11-07T06:57:14.298014\'::timestamp, 17, \'email\', 7, 7, \'[SNAP-PART] Snapshot Test Part \xe2\x80\x94 2.0 Units; unit $\xc2\xa0100.00; discount 10.0%; total $\xc2\xa0198.00\nReplace and calibrate the component \xe2\x80\x94 1.5 Units; unit $\xc2\xa055.00; discount 0.0%; total $\xc2\xa082.50\', \'f8148a1850508c076403b0b757a32f2e9159c7fb3f2b73a6b63008886d0f03ff\', \'2026-11-07T06:57:14.298014\'::timestamp, 17) RETURNING "id"'
+ERROR: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (6, 7, 7, 17, 17, f8148a1850508c076403b0b757a32f2e9159c7fb3f2b73a6b63008886d0f03ff, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+2026-11-07 06:57:19,459 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 06:57:19,459 3152 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ERROR: TestRepairAuthorizationCapture.test_original_snapshot_preserves_scope_taxes_discounts_and_totals
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 168, in test_original_snapshot_preserves_scope_taxes_discounts_and_totals
+    authorization = self._record_approval(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 50, in action_open_original_authorization_capture
+    wizard = self.env["gt.repair.authorization.capture.wizard"].sudo().with_context({}).create({
+        "repair_id": self.id,
+    ...<2 lines>...
+        "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+    })
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 39, in create
+    return super().create(vals_list)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4192, in create
+    records = self._create(data_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4387, in _create
+    cr.execute(SQL(
+    ~~~~~~~~~~^^^^^
+        'INSERT INTO %s (%s) VALUES %s RETURNING "id"',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        SQL(', ').join(tuple(row) for row in rows),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))
+    ^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\sql_db.py", line 418, in execute
+    self._obj.execute(query, params)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (6, 7, 7, 17, 17, f8148a1850508c076403b0b757a32f2e9159c7fb3f2b73a6b63008886d0f03ff, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+
+2026-11-07 06:57:19,461 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_source_edits_and_deletion_do_not_change_finalized_snapshot ...
+2026-11-07 06:57:19,720 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED921AFC0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 217, in test_source_edits_and_deletion_do_not_change_finalized_snapshot
+    authorization = self._record_approval(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:19,723 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED921AFC0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 217, in test_source_edits_and_deletion_do_not_change_finalized_snapshot
+    authorization = self._record_approval(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:19,726 3152 ERROR gt_reauth_p1_20261107 odoo.sql_db: bad query: b'INSERT INTO "gt_repair_authorization_capture_wizard" ("create_date", "create_uid", "evidence_type", "repair_id", "sale_order_id", "scope_preview", "source_fingerprint", "write_date", "write_uid") VALUES (\'2026-11-07T06:57:14.298014\'::timestamp, 17, \'email\', 8, 8, \'[SNAP-PART] Snapshot Test Part \xe2\x80\x94 2.0 Units; unit $\xc2\xa0100.00; discount 10.0%; total $\xc2\xa0198.00\nReplace and calibrate the component \xe2\x80\x94 1.5 Units; unit $\xc2\xa055.00; discount 0.0%; total $\xc2\xa082.50\', \'d91d66ce5e1307bae895fdfb0ba0a1c29c8c4c49fe99cc75786db8fa37a55699\', \'2026-11-07T06:57:14.298014\'::timestamp, 17) RETURNING "id"'
+ERROR: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (7, 8, 8, 17, 17, d91d66ce5e1307bae895fdfb0ba0a1c29c8c4c49fe99cc75786db8fa37a55699, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+2026-11-07 06:57:19,730 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 06:57:19,730 3152 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ERROR: TestRepairAuthorizationCapture.test_source_edits_and_deletion_do_not_change_finalized_snapshot
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 217, in test_source_edits_and_deletion_do_not_change_finalized_snapshot
+    authorization = self._record_approval(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 50, in action_open_original_authorization_capture
+    wizard = self.env["gt.repair.authorization.capture.wizard"].sudo().with_context({}).create({
+        "repair_id": self.id,
+    ...<2 lines>...
+        "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+    })
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 39, in create
+    return super().create(vals_list)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4192, in create
+    records = self._create(data_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4387, in _create
+    cr.execute(SQL(
+    ~~~~~~~~~~^^^^^
+        'INSERT INTO %s (%s) VALUES %s RETURNING "id"',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        SQL(', ').join(tuple(row) for row in rows),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))
+    ^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\sql_db.py", line 418, in execute
+    self._obj.execute(query, params)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (7, 8, 8, 17, 17, d91d66ce5e1307bae895fdfb0ba0a1c29c8c4c49fe99cc75786db8fa37a55699, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+
+2026-11-07 06:57:19,733 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_stale_capture_is_rejected_without_creating_snapshot ...
+2026-11-07 06:57:19,971 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED9398E00, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 249, in test_stale_capture_is_rejected_without_creating_snapshot
+    wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:19,972 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED9398E00, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 249, in test_stale_capture_is_rejected_without_creating_snapshot
+    wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:19,974 3152 ERROR gt_reauth_p1_20261107 odoo.sql_db: bad query: b'INSERT INTO "gt_repair_authorization_capture_wizard" ("create_date", "create_uid", "evidence_type", "repair_id", "sale_order_id", "scope_preview", "source_fingerprint", "write_date", "write_uid") VALUES (\'2026-11-07T06:57:14.298014\'::timestamp, 17, \'email\', 9, 9, \'[SNAP-PART] Snapshot Test Part \xe2\x80\x94 2.0 Units; unit $\xc2\xa0100.00; discount 10.0%; total $\xc2\xa0198.00\nReplace and calibrate the component \xe2\x80\x94 1.5 Units; unit $\xc2\xa055.00; discount 0.0%; total $\xc2\xa082.50\', \'e424445ac171373d853a97b3cda63808fb4306a75f8950903cfb86a15a22ab19\', \'2026-11-07T06:57:14.298014\'::timestamp, 17) RETURNING "id"'
+ERROR: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (8, 9, 9, 17, 17, e424445ac171373d853a97b3cda63808fb4306a75f8950903cfb86a15a22ab19, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+2026-11-07 06:57:19,976 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 06:57:19,976 3152 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ERROR: TestRepairAuthorizationCapture.test_stale_capture_is_rejected_without_creating_snapshot
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 249, in test_stale_capture_is_rejected_without_creating_snapshot
+    wizard = self._open_capture(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 50, in action_open_original_authorization_capture
+    wizard = self.env["gt.repair.authorization.capture.wizard"].sudo().with_context({}).create({
+        "repair_id": self.id,
+    ...<2 lines>...
+        "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+    })
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 39, in create
+    return super().create(vals_list)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4192, in create
+    records = self._create(data_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4387, in _create
+    cr.execute(SQL(
+    ~~~~~~~~~~^^^^^
+        'INSERT INTO %s (%s) VALUES %s RETURNING "id"',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        SQL(', ').join(tuple(row) for row in rows),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))
+    ^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\sql_db.py", line 418, in execute
+    self._obj.execute(query, params)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (8, 9, 9, 17, 17, e424445ac171373d853a97b3cda63808fb4306a75f8950903cfb86a15a22ab19, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+
+2026-11-07 06:57:19,977 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_technician_can_view_but_cannot_capture_edit_delete_or_read_evidence ...
+2026-11-07 06:57:20,221 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED94891C0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 331, in test_technician_can_view_but_cannot_capture_edit_delete_or_read_evidence
+    authorization = self._record_approval(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:20,223 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED94891C0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 435, code _format_scope_preview>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 331, in test_technician_can_view_but_cannot_capture_edit_delete_or_read_evidence
+    authorization = self._record_approval(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 54, in action_open_original_authorization_capture
+    "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 435, in _format_scope_preview
+    _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:20,225 3152 ERROR gt_reauth_p1_20261107 odoo.sql_db: bad query: b'INSERT INTO "gt_repair_authorization_capture_wizard" ("create_date", "create_uid", "evidence_type", "repair_id", "sale_order_id", "scope_preview", "source_fingerprint", "write_date", "write_uid") VALUES (\'2026-11-07T06:57:14.298014\'::timestamp, 17, \'email\', 10, 10, \'[SNAP-PART] Snapshot Test Part \xe2\x80\x94 2.0 Units; unit $\xc2\xa0100.00; discount 10.0%; total $\xc2\xa0198.00\nReplace and calibrate the component \xe2\x80\x94 1.5 Units; unit $\xc2\xa055.00; discount 0.0%; total $\xc2\xa082.50\', \'d4f0a3ffe2220655225fead582e38caaae0ccb6dd9c14af7ec4f47aaf57a05dc\', \'2026-11-07T06:57:14.298014\'::timestamp, 17) RETURNING "id"'
+ERROR: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (9, 10, 10, 17, 17, d4f0a3ffe2220655225fead582e38caaae0ccb6dd9c14af7ec4f47aaf57a05dc, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+2026-11-07 06:57:20,227 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 06:57:20,227 3152 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ERROR: TestRepairAuthorizationCapture.test_technician_can_view_but_cannot_capture_edit_delete_or_read_evidence
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 331, in test_technician_can_view_but_cannot_capture_edit_delete_or_read_evidence
+    authorization = self._record_approval(repair)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 148, in _record_approval
+    wizard = self._open_capture(repair, user)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 143, in _open_capture
+    action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 50, in action_open_original_authorization_capture
+    wizard = self.env["gt.repair.authorization.capture.wizard"].sudo().with_context({}).create({
+        "repair_id": self.id,
+    ...<2 lines>...
+        "scope_preview": _format_scope_preview(sale_order.currency_id, scope_lines),
+    })
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 39, in create
+    return super().create(vals_list)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4192, in create
+    records = self._create(data_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4387, in _create
+    cr.execute(SQL(
+    ~~~~~~~~~~^^^^^
+        'INSERT INTO %s (%s) VALUES %s RETURNING "id"',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        SQL(', ').join(tuple(row) for row in rows),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))
+    ^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\sql_db.py", line 418, in execute
+    self._obj.execute(query, params)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "evidence_reference" of relation "gt_repair_authorization_capture_wizard" violates not-null constraint
+DETAIL:  Failing row contains (9, 10, 10, 17, 17, d4f0a3ffe2220655225fead582e38caaae0ccb6dd9c14af7ec4f47aaf57a05dc, email, null, [SNAP-PART] Snapshot Test Part — 2.0 Units; unit $ 100.00; di..., null, null, null, null, null, 2026-11-07 06:57:14.298014, 2026-11-07 06:57:14.298014, null).
+
+
+2026-11-07 06:57:20,229 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_unmapped_and_cancelled_quotation_lines_are_rejected ...
+2026-11-07 06:57:20,658 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED8DF9D50, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 372, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 286, in test_unmapped_and_cancelled_quotation_lines_are_rejected
+    repair.with_user(self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 48, in action_open_original_authorization_capture
+    scope_lines = _validated_scope_lines(self, sale_order)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 372, in _validated_scope_lines
+    raise UserError(_("A quotation line cannot be matched to this repair. Remove or map the ambiguous line before recording approval."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:20,978 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED8DFA320, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 337, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 291, in test_unmapped_and_cancelled_quotation_lines_are_rejected
+    repair.with_user(self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 48, in action_open_original_authorization_capture
+    scope_lines = _validated_scope_lines(self, sale_order)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 337, in _validated_scope_lines
+    raise UserError(_("The quotation is cancelled; choose a current customer-facing quotation."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:20,982 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_unrelated_quotation_and_customer_mismatch_are_rejected ...
+2026-11-07 06:57:21,383 3152 WARNING gt_reauth_p1_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x0000022ED8DFA320, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 419, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 268, in test_unrelated_quotation_and_customer_mismatch_are_rejected
+    repair.with_user(self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 48, in action_open_original_authorization_capture
+    scope_lines = _validated_scope_lines(self, sale_order)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 419, in _validated_scope_lines
+    raise UserError(_("No identifiable chargeable repair lines are linked to this quotation."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 06:57:21,406 3152 INFO gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: ======================================================================
+2026-11-07 06:57:21,407 3152 ERROR gt_reauth_p1_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: FAIL: TestRepairAuthorizationCapture.test_unrelated_quotation_and_customer_mismatch_are_rejected
+odoo.exceptions.UserError: No identifiable chargeable repair lines are linked to this quotation.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 267, in test_unrelated_quotation_and_customer_mismatch_are_rejected
+    with self.assertRaisesRegex(UserError, "does not belong to the selected repair"):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\common.py", line 805, in _raisesContext
+    with ExitStack() as inner:
+         ~~~~~~~~~^^
+  File "C:\Program Files\Python314\Lib\contextlib.py", line 619, in __exit__
+    raise exc
+  File "C:\Program Files\Python314\Lib\contextlib.py", line 604, in __exit__
+    if cb(*exc_details):
+       ~~^^^^^^^^^^^^^^
+AssertionError: "does not belong to the selected repair" does not match "No identifiable chargeable repair lines are linked to this quotation."
+
+2026-11-07 06:57:21,434 3152 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_attachment: filestore gc 15 checked, 4 removed
+2026-11-07 06:57:21,442 3152 INFO gt_reauth_p1_20261107 odoo.service.server: 12 post-tests in 7.15s, 3144 queries
+2026-11-07 06:57:21,443 3152 INFO gt_reauth_p1_20261107 odoo.tests.stats: gt_repair_reauthorization: 14 tests 7.14s 3144 queries
+2026-11-07 06:57:21,443 3152 ERROR gt_reauth_p1_20261107 odoo.tests.result: 1 failed, 10 error(s) of 12 tests when loading database 'gt_reauth_p1_20261107'
+2026-11-07 06:57:21,443 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Error: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_manager_can_review_but_cannot_override_immutability - null value in column "evidence_reference" of [...]
+2026-11-07 06:57:21,443 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Error: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_stale_capture_is_rejected_without_creating_snapshot - null value in column "evidence_reference" of [...]
+2026-11-07 06:57:21,444 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Error: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_original_snapshot_preserves_scope_taxes_discounts_and_totals - null value in column "evidence_reference" of [...]
+2026-11-07 06:57:21,444 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Error: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_source_edits_and_deletion_do_not_change_finalized_snapshot - null value in column "evidence_reference" of [...]
+2026-11-07 06:57:21,444 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Error: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_confirmed_quotation_alone_is_not_customer_evidence - null value in column "evidence_reference" of [...]
+2026-11-07 06:57:21,444 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Error: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_multi_company_isolation_and_cross_company_link_rejection - Access to unauthorized or invalid companies.
+2026-11-07 06:57:21,445 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Error: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_capture_requires_customer_evidence_and_explicit_scope_confirmation - null value in column "evidence_reference" of [...]
+2026-11-07 06:57:21,445 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Error: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_file_evidence_is_stored_on_restricted_snapshot_without_public_attachment - null value in column "evidence_reference" of [...]
+2026-11-07 06:57:21,445 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Error: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_duplicate_capture_is_prevented_and_snapshots_cannot_be_edited_or_deleted - null value in column "evidence_reference" of [...]
+2026-11-07 06:57:21,445 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Error: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_technician_can_view_but_cannot_capture_edit_delete_or_read_evidence - null value in column "evidence_reference" of [...]
+2026-11-07 06:57:21,445 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Failed: odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture.TestRepairAuthorizationCapture.test_unrelated_quotation_and_customer_mismatch_are_rejected - "does not belong to the selected repair" [...]
+2026-11-07 06:57:21,446 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Initiating shutdown
+2026-11-07 06:57:21,446 3152 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-11-07 06:57:21,446 3152 INFO gt_reauth_p1_20261107 odoo.addons.bus.websocket: Disconnecting 0 websockets
+2026-11-07 06:57:21,555 3152 INFO gt_reauth_p1_20261107 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 
