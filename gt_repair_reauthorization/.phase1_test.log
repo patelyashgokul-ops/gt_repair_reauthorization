@@ -1,0 +1,433 @@
+2026-11-07 06:52:14,133 1636 WARNING ? odoo.tools.config: option --without-demo: since 19.0, invalid boolean value: 'all', assume True
+2026-11-07 06:52:14,142 1636 INFO ? odoo: Odoo version 20.0
+2026-11-07 06:52:14,142 1636 INFO ? odoo: Using configuration file at c:\pycharmprojects\odoo20\odoo-20.0\odoo.conf
+2026-11-07 06:52:14,143 1636 INFO ? odoo: addons paths: _NamespacePath(['C:\\PycharmProjects\\odoo20\\odoo-20.0\\odoo\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\.test_data\\addons\\20.0', 'c:\\pycharmprojects\\odoo20\\odoo-20.0\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons'])
+2026-11-07 06:52:14,143 1636 INFO ? odoo: database: odoo@localhost:5432
+2026-11-07 06:52:15,996 1636 INFO ? odoo.service.server: HTTP service running on 127.0.0.1:8071
+2026-11-07 06:52:16,054 1636 INFO gt_reauth_p1_20261107 odoo.tests.common: Importing test framework
+2026-11-07 06:52:16,343 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading 1 modules...
+2026-11-07 06:52:16,353 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra)
+2026-11-07 06:52:16,400 1636 INFO gt_reauth_p1_20261107 odoo.tools.version_tag_reset: Detected tp_versions_used at offset 410, reset enabled
+2026-11-07 06:52:16,401 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: updating modules list
+2026-11-07 06:52:16,415 1636 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2026-11-07 06:52:18,212 1636 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 06:52:18,214 1636 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 06:52:18,288 1636 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 06:52:18,288 1636 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 06:52:18,375 1636 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 06:52:18,375 1636 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 06:52:18,533 1636 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Repair Reauthorization'] to user __system__ #1 via n/a
+2026-11-07 06:52:18,756 1636 WARNING gt_reauth_p1_20261107 odoo.modules.module_graph: module supplier_rebate_recovery: not installable, skipped
+2026-11-07 06:52:18,759 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading 109 modules...
+2026-11-07 06:52:19,701 1636 WARNING gt_reauth_p1_20261107 odoo.addons.mail.controllers.attachment: markdown2 is not installed, markdown will not be rendered
+2026-11-07 06:52:21,599 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module barcodes (78/109)
+2026-11-07 06:52:22,074 1636 INFO gt_reauth_p1_20261107 odoo.registry: module barcodes: creating or updating database tables
+2026-11-07 06:52:22,650 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading barcodes/data/barcodes_data.xml
+2026-11-07 06:52:22,671 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading barcodes/views/barcodes_view.xml
+2026-11-07 06:52:22,817 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading barcodes/views/res_partner_views.xml
+2026-11-07 06:52:22,857 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading barcodes/security/ir.access.csv
+2026-11-07 06:52:25,050 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:25,074 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module barcodes loaded in 3.48s, 896 queries (+896 other)
+2026-11-07 06:52:25,075 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module barcodes_gs1_nomenclature (79/109)
+2026-11-07 06:52:25,102 1636 INFO gt_reauth_p1_20261107 odoo.registry: module barcodes_gs1_nomenclature: creating or updating database tables
+2026-11-07 06:52:25,220 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading barcodes_gs1_nomenclature/data/barcodes_gs1_rules.xml
+2026-11-07 06:52:25,343 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading barcodes_gs1_nomenclature/views/barcodes_view.xml
+2026-11-07 06:52:25,493 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:25,502 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module barcodes_gs1_nomenclature loaded in 0.43s, 207 queries (+207 other)
+2026-11-07 06:52:25,503 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module sales_team (80/109)
+2026-11-07 06:52:25,570 1636 INFO gt_reauth_p1_20261107 odoo.registry: module sales_team: creating or updating database tables
+2026-11-07 06:52:25,618 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of res.users.sale_team_id in 4 records
+2026-11-07 06:52:25,865 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sales_team/security/sales_team_security.xml
+2026-11-07 06:52:26,142 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sales_team/data/crm_team_data.xml
+2026-11-07 06:52:26,215 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sales_team/views/crm_tag_views.xml
+2026-11-07 06:52:26,296 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sales_team/views/crm_team_views.xml
+2026-11-07 06:52:26,370 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sales_team/views/crm_team_member_views.xml
+2026-11-07 06:52:26,441 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sales_team/views/mail_activity_views.xml
+2026-11-07 06:52:26,456 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sales_team/security/ir.access.csv
+2026-11-07 06:52:26,634 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:27,017 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module sales_team loaded in 1.51s, 465 queries (+465 other)
+2026-11-07 06:52:27,017 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module stock (81/109)
+2026-11-07 06:52:27,312 1636 INFO gt_reauth_p1_20261107 odoo.registry: module stock: creating or updating database tables
+2026-11-07 06:52:33,493 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/security/stock_security.xml
+2026-11-07 06:52:34,659 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/data/digest_data.xml
+2026-11-07 06:52:34,704 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/data/mail_message_subtype_data.xml
+2026-11-07 06:52:34,731 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/data/mail_templates.xml
+2026-11-07 06:52:34,750 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/data/default_barcode_patterns.xml
+2026-11-07 06:52:34,780 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/data/stock_data.xml
+2026-11-07 06:52:35,355 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/data/stock_sequence_data.xml
+2026-11-07 06:52:35,505 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/data/stock_traceability_report_data.xml
+2026-11-07 06:52:35,534 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/report_stock_quantity.xml
+2026-11-07 06:52:35,611 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/report_stock_reception.xml
+2026-11-07 06:52:35,623 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/stock_report_views.xml
+2026-11-07 06:52:35,672 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/report_package_barcode.xml
+2026-11-07 06:52:35,716 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/report_lot_barcode.xml
+2026-11-07 06:52:35,755 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/report_location_barcode.xml
+2026-11-07 06:52:35,788 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/report_picking_batch.xml
+2026-11-07 06:52:35,832 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/report_stockpicking_operations.xml
+2026-11-07 06:52:35,880 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/report_deliveryslip.xml
+2026-11-07 06:52:35,965 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/report_stockinventory.xml
+2026-11-07 06:52:35,988 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/report_stock_rule.xml
+2026-11-07 06:52:36,039 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/package_templates.xml
+2026-11-07 06:52:36,064 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/picking_templates.xml
+2026-11-07 06:52:36,072 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/product_templates.xml
+2026-11-07 06:52:36,087 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/report_return_slip.xml
+2026-11-07 06:52:36,138 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/report/stock_allocation_report.xml
+2026-11-07 06:52:36,149 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/data/mail_template_data.xml
+2026-11-07 06:52:36,197 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_menu_views.xml
+2026-11-07 06:52:36,406 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_add_to_wave_views.xml
+2026-11-07 06:52:36,427 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_inventory_conflict.xml
+2026-11-07 06:52:36,460 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_backorder_confirmation_views.xml
+2026-11-07 06:52:36,484 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_zero_demand_confirmation_views.xml
+2026-11-07 06:52:36,504 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_request_count.xml
+2026-11-07 06:52:36,525 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_replenishment_info.xml
+2026-11-07 06:52:36,567 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_rules_report_views.xml
+2026-11-07 06:52:36,591 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_warn_insufficient_qty_views.xml
+2026-11-07 06:52:36,620 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/product_replenish_views.xml
+2026-11-07 06:52:36,653 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/product_label_layout_views.xml
+2026-11-07 06:52:36,685 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_orderpoint_snooze_views.xml
+2026-11-07 06:52:36,706 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_orderpoint_suggest.xml
+2026-11-07 06:52:36,737 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_package_destination_views.xml
+2026-11-07 06:52:36,763 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_picking_to_batch_views.xml
+2026-11-07 06:52:36,788 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_inventory_adjustment_name.xml
+2026-11-07 06:52:36,814 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_inventory_warning.xml
+2026-11-07 06:52:36,848 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_label_type.xml
+2026-11-07 06:52:36,874 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_lot_label_layout.xml
+2026-11-07 06:52:36,893 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_quant_relocate.xml
+2026-11-07 06:52:36,914 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/wizard/stock_put_in_pack_views.xml
+2026-11-07 06:52:36,958 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/res_partner_views.xml
+2026-11-07 06:52:37,060 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/product_strategy_views.xml
+2026-11-07 06:52:37,156 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_lot_views.xml
+2026-11-07 06:52:37,403 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_quant_views.xml
+2026-11-07 06:52:38,113 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_warehouse_views.xml
+2026-11-07 06:52:38,179 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_move_line_views.xml
+2026-11-07 06:52:38,360 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_move_views.xml
+2026-11-07 06:52:38,596 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_picking_views.xml
+2026-11-07 06:52:39,107 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_picking_batch_views.xml
+2026-11-07 06:52:39,231 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_picking_type_views.xml
+2026-11-07 06:52:39,370 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/product_views.xml
+2026-11-07 06:52:39,878 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_location_views.xml
+2026-11-07 06:52:40,108 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_orderpoint_views.xml
+2026-11-07 06:52:40,279 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_storage_category_views.xml
+2026-11-07 06:52:40,343 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/res_config_settings_views.xml
+2026-11-07 06:52:40,435 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/report_stock_traceability.xml
+2026-11-07 06:52:40,462 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_template.xml
+2026-11-07 06:52:40,488 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_rule_views.xml
+2026-11-07 06:52:40,574 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_scrap_reason_tag_views.xml
+2026-11-07 06:52:40,593 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_package_history_views.xml
+2026-11-07 06:52:40,669 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_package_type_view.xml
+2026-11-07 06:52:40,722 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_package_views.xml
+2026-11-07 06:52:40,849 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_forecasted.xml
+2026-11-07 06:52:40,867 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/stock_reference_views.xml
+2026-11-07 06:52:40,923 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/uom_uom_views.xml
+2026-11-07 06:52:40,983 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/views/digest_digest_views.xml
+2026-11-07 06:52:41,032 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock/security/ir.access.csv
+2026-11-07 06:52:41,968 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:42,169 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module stock loaded in 15.15s, 5721 queries (+5721 other)
+2026-11-07 06:52:42,169 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module project_stock (82/109)
+2026-11-07 06:52:42,246 1636 INFO gt_reauth_p1_20261107 odoo.registry: module project_stock: creating or updating database tables
+2026-11-07 06:52:42,498 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading project_stock/views/stock_picking_views.xml
+2026-11-07 06:52:42,658 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading project_stock/views/project_project_views.xml
+2026-11-07 06:52:42,913 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:42,921 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module project_stock loaded in 0.75s, 137 queries (+137 other)
+2026-11-07 06:52:42,922 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module stock_account (83/109)
+2026-11-07 06:52:43,138 1636 INFO gt_reauth_p1_20261107 odoo.registry: module stock_account: creating or updating database tables
+2026-11-07 06:52:44,043 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/security/stock_account_security.xml
+2026-11-07 06:52:44,170 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/data/stock_account_data.xml
+2026-11-07 06:52:44,190 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/views/account_move_views.xml
+2026-11-07 06:52:44,318 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/views/res_config_settings_views.xml
+2026-11-07 06:52:44,356 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/views/report_invoice.xml
+2026-11-07 06:52:44,385 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/views/stock_quant_views.xml
+2026-11-07 06:52:44,966 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/views/product_views.xml
+2026-11-07 06:52:45,071 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/views/product_value_views.xml
+2026-11-07 06:52:45,145 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/views/stock_location_views.xml
+2026-11-07 06:52:45,186 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/views/stock_lot_views.xml
+2026-11-07 06:52:45,209 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/views/stock_move_views.xml
+2026-11-07 06:52:45,362 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/wizard/stock_inventory_adjustment_name_views.xml
+2026-11-07 06:52:45,382 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/report/account_invoice_report_view.xml
+2026-11-07 06:52:45,404 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/report/stock_avco_audit_report_views.xml
+2026-11-07 06:52:45,437 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_account/security/ir.access.csv
+2026-11-07 06:52:45,912 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:46,265 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module stock_account loaded in 3.34s, 893 queries (+893 other)
+2026-11-07 06:52:46,265 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module stock_sms (84/109)
+2026-11-07 06:52:46,388 1636 INFO gt_reauth_p1_20261107 odoo.registry: module stock_sms: creating or updating database tables
+2026-11-07 06:52:46,670 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_sms/data/sms_data.xml
+2026-11-07 06:52:46,687 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_sms/views/res_config_settings_views.xml
+2026-11-07 06:52:46,795 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_sms/wizard/confirm_stock_sms_views.xml
+2026-11-07 06:52:46,810 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading stock_sms/security/ir.access.csv
+2026-11-07 06:52:47,047 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:47,051 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module stock_sms loaded in 0.79s, 219 queries (+219 other)
+2026-11-07 06:52:47,051 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module project_stock_account (85/109)
+2026-11-07 06:52:47,088 1636 INFO gt_reauth_p1_20261107 odoo.registry: module project_stock_account: creating or updating database tables
+2026-11-07 06:52:47,115 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of stock.picking.type.analytic_costs in 8 records
+2026-11-07 06:52:47,245 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading project_stock_account/views/stock_picking_type_views.xml
+2026-11-07 06:52:47,387 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:47,399 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module project_stock_account loaded in 0.35s, 111 queries (+111 other)
+2026-11-07 06:52:47,399 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module purchase_stock (86/109)
+2026-11-07 06:52:47,634 1636 INFO gt_reauth_p1_20261107 odoo.registry: module purchase_stock: creating or updating database tables
+2026-11-07 06:52:47,671 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of purchase.order.picking_ids
+2026-11-07 06:52:47,816 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of stock.replenishment.info.supplierinfo_ids
+2026-11-07 06:52:48,349 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/data/purchase_stock_data.xml
+2026-11-07 06:52:48,561 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/data/mail_templates.xml
+2026-11-07 06:52:48,581 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/report/vendor_delay_report.xml
+2026-11-07 06:52:48,653 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/views/purchase_views.xml
+2026-11-07 06:52:48,751 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/views/stock_views.xml
+2026-11-07 06:52:48,834 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/views/stock_picking_views.xml
+2026-11-07 06:52:48,885 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/views/stock_rule_views.xml
+2026-11-07 06:52:48,909 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/views/res_config_settings_views.xml
+2026-11-07 06:52:48,981 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/views/res_partner_views.xml
+2026-11-07 06:52:49,017 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/views/stock_lot_views.xml
+2026-11-07 06:52:49,038 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/views/stock_orderpoint_views.xml
+2026-11-07 06:52:49,057 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/views/stock_reference_views.xml
+2026-11-07 06:52:49,072 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/views/product_views.xml
+2026-11-07 06:52:49,168 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/report/purchase_report_views.xml
+2026-11-07 06:52:49,184 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/report/purchase_report_templates.xml
+2026-11-07 06:52:49,207 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/report/report_stock_rule.xml
+2026-11-07 06:52:49,228 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/wizard/stock_replenishment_info.xml
+2026-11-07 06:52:49,246 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/wizard/product_replenish_views.xml
+2026-11-07 06:52:49,267 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading purchase_stock/security/ir.access.csv
+2026-11-07 06:52:49,542 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:49,607 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module purchase_stock loaded in 2.21s, 1013 queries (+1013 other)
+2026-11-07 06:52:49,607 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module sale (87/109)
+2026-11-07 06:52:49,848 1636 INFO gt_reauth_p1_20261107 odoo.registry: module sale: creating or updating database tables
+2026-11-07 06:52:50,142 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of sale.order.line.product_no_variant_attribute_value_ids
+2026-11-07 06:52:50,154 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of sale.order.line.tax_ids
+2026-11-07 06:52:51,274 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/security/res_groups.xml
+2026-11-07 06:52:51,642 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/report/account_invoice_report_views.xml
+2026-11-07 06:52:51,736 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/report/ir_actions_report_templates.xml
+2026-11-07 06:52:51,799 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/report/ir_actions_report.xml
+2026-11-07 06:52:51,847 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/report/sale_report_views.xml
+2026-11-07 06:52:51,968 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/data/ir_cron.xml
+2026-11-07 06:52:52,097 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/data/ir_sequence_data.xml
+2026-11-07 06:52:52,111 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/data/mail_message_subtype_data.xml
+2026-11-07 06:52:52,150 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/data/mail_template_data.xml
+2026-11-07 06:52:52,229 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/data/portal_entry_data.xml
+2026-11-07 06:52:52,270 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/data/sale_tour.xml
+2026-11-07 06:52:52,289 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/data/ir_config_parameter.xml
+2026-11-07 06:52:52,329 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/wizard/account_accrued_orders_wizard_views.xml
+2026-11-07 06:52:52,373 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/wizard/mass_cancel_orders_views.xml
+2026-11-07 06:52:52,460 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/wizard/payment_link_wizard_views.xml
+2026-11-07 06:52:52,494 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/wizard/res_config_settings_views.xml
+2026-11-07 06:52:52,623 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml
+2026-11-07 06:52:52,655 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/wizard/sale_order_discount_views.xml
+2026-11-07 06:52:52,681 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/sale_order_views.xml
+2026-11-07 06:52:53,228 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/account_views.xml
+2026-11-07 06:52:53,408 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/account_analytic_line_views.xml
+2026-11-07 06:52:53,451 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/crm_team_views.xml
+2026-11-07 06:52:53,508 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/mail_activity_views.xml
+2026-11-07 06:52:53,528 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/payment_views.xml
+2026-11-07 06:52:53,580 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/product_document_views.xml
+2026-11-07 06:52:53,649 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/product_template_views.xml
+2026-11-07 06:52:53,746 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/product_views.xml
+2026-11-07 06:52:53,983 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/res_partner_views.xml
+2026-11-07 06:52:54,123 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/sale_order_line_views.xml
+2026-11-07 06:52:54,160 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/sale_portal_templates.xml
+2026-11-07 06:52:54,287 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/utm_campaign_views.xml
+2026-11-07 06:52:54,337 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/views/sale_menus.xml
+2026-11-07 06:52:54,480 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale/security/ir.access.csv
+2026-11-07 06:52:55,219 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:55,362 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module sale loaded in 5.76s, 2592 queries (+2592 other)
+2026-11-07 06:52:55,362 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module spreadsheet_dashboard_stock_account (88/109)
+2026-11-07 06:52:55,404 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading spreadsheet_dashboard_stock_account/data/dashboards.xml
+2026-11-07 06:52:55,619 1636 INFO gt_reauth_p1_20261107 odoo.registry: Caches invalidated, signaling through the database: ['default', 'stable']
+2026-11-07 06:52:55,630 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module spreadsheet_dashboard_stock_account loaded in 0.27s, 35 queries (+35 other)
+2026-11-07 06:52:55,630 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module mass_mailing_sale (89/109)
+2026-11-07 06:52:55,692 1636 INFO gt_reauth_p1_20261107 odoo.registry: module mass_mailing_sale: creating or updating database tables
+2026-11-07 06:52:55,866 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading mass_mailing_sale/views/mailing_mailing_views.xml
+2026-11-07 06:52:56,054 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:56,059 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module mass_mailing_sale loaded in 0.43s, 114 queries (+114 other)
+2026-11-07 06:52:56,059 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module project_purchase_stock (90/109)
+2026-11-07 06:52:56,126 1636 INFO gt_reauth_p1_20261107 odoo.registry: module project_purchase_stock: creating or updating database tables
+2026-11-07 06:52:56,335 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:56,382 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module project_purchase_stock loaded in 0.32s, 90 queries (+90 other)
+2026-11-07 06:52:56,382 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module sale_edi_ubl (91/109)
+2026-11-07 06:52:56,451 1636 INFO gt_reauth_p1_20261107 odoo.registry: module sale_edi_ubl: creating or updating database tables
+2026-11-07 06:52:56,684 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_edi_ubl/security/ir.access.csv
+2026-11-07 06:52:56,869 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:56,882 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module sale_edi_ubl loaded in 0.50s, 199 queries (+199 other)
+2026-11-07 06:52:56,882 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module sale_management (92/109)
+2026-11-07 06:52:56,982 1636 INFO gt_reauth_p1_20261107 odoo.registry: module sale_management: creating or updating database tables
+2026-11-07 06:52:57,585 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_management/data/digest_data.xml
+2026-11-07 06:52:57,645 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_management/views/sale_order_template_views.xml
+2026-11-07 06:52:57,854 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_management/views/digest_views.xml
+2026-11-07 06:52:57,890 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_management/views/res_config_settings_views.xml
+2026-11-07 06:52:57,973 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_management/views/sale_order_views.xml
+2026-11-07 06:52:58,171 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_management/views/sale_portal_templates.xml
+2026-11-07 06:52:58,223 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_management/views/sale_management_menus.xml
+2026-11-07 06:52:58,252 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_management/security/ir.access.csv
+2026-11-07 06:52:58,512 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:58,646 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module sale_management loaded in 1.76s, 482 queries (+482 other)
+2026-11-07 06:52:58,646 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module sale_purchase (93/109)
+2026-11-07 06:52:58,761 1636 INFO gt_reauth_p1_20261107 odoo.registry: module sale_purchase: creating or updating database tables
+2026-11-07 06:52:59,071 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_purchase/data/mail_templates.xml
+2026-11-07 06:52:59,131 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_purchase/views/product_views.xml
+2026-11-07 06:52:59,356 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_purchase/views/sale_order_views.xml
+2026-11-07 06:52:59,429 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_purchase/views/purchase_order_views.xml
+2026-11-07 06:52:59,586 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:52:59,620 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module sale_purchase loaded in 0.97s, 234 queries (+234 other)
+2026-11-07 06:52:59,620 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module sale_sms (94/109)
+2026-11-07 06:52:59,676 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_sms/security/ir.access.csv
+2026-11-07 06:52:59,875 1636 INFO gt_reauth_p1_20261107 odoo.registry: Caches invalidated, signaling through the database: ['default', 'stable']
+2026-11-07 06:52:59,882 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module sale_sms loaded in 0.26s, 69 queries (+69 other)
+2026-11-07 06:52:59,882 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module sale_stock (95/109)
+2026-11-07 06:53:00,154 1636 INFO gt_reauth_p1_20261107 odoo.registry: module sale_stock: creating or updating database tables
+2026-11-07 06:53:00,888 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/views/product_views.xml
+2026-11-07 06:53:01,050 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/views/sale_order_views.xml
+2026-11-07 06:53:01,232 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/views/sale_order_line_views.xml
+2026-11-07 06:53:01,257 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/views/stock_route_views.xml
+2026-11-07 06:53:01,280 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/views/return_reason_views.xml
+2026-11-07 06:53:01,300 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/views/res_config_settings_views.xml
+2026-11-07 06:53:01,395 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/views/sale_stock_portal_template.xml
+2026-11-07 06:53:01,454 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/views/stock_lot_views.xml
+2026-11-07 06:53:01,485 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/views/res_users_views.xml
+2026-11-07 06:53:01,593 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/views/stock_picking_views.xml
+2026-11-07 06:53:01,699 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/views/stock_reference_views.xml
+2026-11-07 06:53:01,733 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/report/stock_report_deliveryslip.xml
+2026-11-07 06:53:01,760 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/report/return_label.xml
+2026-11-07 06:53:01,789 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/data/mail_templates.xml
+2026-11-07 06:53:01,817 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/data/return_reason_data.xml
+2026-11-07 06:53:01,845 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/data/sale_stock_data.xml
+2026-11-07 06:53:01,863 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/wizard/stock_replenishment_info.xml
+2026-11-07 06:53:01,886 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/wizard/stock_rules_report_views.xml
+2026-11-07 06:53:01,912 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_stock/security/ir.access.csv
+2026-11-07 06:53:02,252 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:53:02,286 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module sale_stock loaded in 2.40s, 960 queries (+960 other)
+2026-11-07 06:53:02,286 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module spreadsheet_dashboard_sale (96/109)
+2026-11-07 06:53:02,330 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading spreadsheet_dashboard_sale/data/dashboards.xml
+2026-11-07 06:53:02,589 1636 INFO gt_reauth_p1_20261107 odoo.registry: Caches invalidated, signaling through the database: ['default', 'stable']
+2026-11-07 06:53:02,595 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module spreadsheet_dashboard_sale loaded in 0.31s, 41 queries (+41 other)
+2026-11-07 06:53:02,595 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module repair (97/109)
+2026-11-07 06:53:03,024 1636 INFO gt_reauth_p1_20261107 odoo.registry: module repair: creating or updating database tables
+2026-11-07 06:53:03,099 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of stock.picking.type.default_product_location_src_id in 8 records
+2026-11-07 06:53:03,102 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of stock.picking.type.default_product_location_dest_id in 8 records
+2026-11-07 06:53:03,106 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of stock.picking.type.default_remove_location_dest_id in 8 records
+2026-11-07 06:53:03,109 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of stock.picking.type.default_recycle_location_dest_id in 8 records
+2026-11-07 06:53:04,479 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/views/product_views.xml
+2026-11-07 06:53:04,703 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/views/stock_move_views.xml
+2026-11-07 06:53:04,742 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/views/repair_views.xml
+2026-11-07 06:53:04,996 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/views/sale_order_views.xml
+2026-11-07 06:53:05,046 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/views/stock_lot_views.xml
+2026-11-07 06:53:05,092 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/views/stock_picking_views.xml
+2026-11-07 06:53:05,240 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/views/stock_warehouse_views.xml
+2026-11-07 06:53:05,284 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/views/account_move_views.xml
+2026-11-07 06:53:05,359 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/views/res_partner_views.xml
+2026-11-07 06:53:05,410 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/report/repair_reports.xml
+2026-11-07 06:53:05,424 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/report/repair_templates_repair_order.xml
+2026-11-07 06:53:05,450 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/data/repair_data.xml
+2026-11-07 06:53:05,567 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/security/ir.access.csv
+2026-11-07 06:53:05,623 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading repair/wizard/repair_consumption_warning_views.xml
+2026-11-07 06:53:05,977 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:53:06,063 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module repair loaded in 3.47s, 1194 queries (+1194 other)
+2026-11-07 06:53:06,064 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module sale_margin (98/109)
+2026-11-07 06:53:06,135 1636 INFO gt_reauth_p1_20261107 odoo.registry: module sale_margin: creating or updating database tables
+2026-11-07 06:53:06,319 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_margin/views/sale_order_views.xml
+2026-11-07 06:53:06,460 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_margin/views/sale_order_template_views.xml
+2026-11-07 06:53:06,487 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_margin/report/sale_report_views.xml
+2026-11-07 06:53:06,767 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:53:06,833 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module sale_margin loaded in 0.77s, 210 queries (+210 other)
+2026-11-07 06:53:06,834 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module sale_pdf_quote_builder (99/109)
+2026-11-07 06:53:06,968 1636 INFO gt_reauth_p1_20261107 odoo.registry: module sale_pdf_quote_builder: creating or updating database tables
+2026-11-07 06:53:06,992 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of product.document.form_field_ids
+2026-11-07 06:53:07,033 1636 INFO gt_reauth_p1_20261107 odoo.fields: Prepare computation of quotation.document.form_field_ids
+2026-11-07 06:53:07,582 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/data/ir_cron.xml
+2026-11-07 06:53:07,719 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/data/sale_pdf_form_field.xml
+2026-11-07 06:53:07,754 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/report/ir_actions_report.xml
+2026-11-07 06:53:07,782 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/product_document_views.xml
+2026-11-07 06:53:07,911 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/quotation_document_views.xml
+2026-11-07 06:53:07,984 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_order_template_views.xml
+2026-11-07 06:53:08,024 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_order_views.xml
+2026-11-07 06:53:08,068 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_pdf_form_field_views.xml
+2026-11-07 06:53:08,094 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_pdf_quote_builder_menus.xml
+2026-11-07 06:53:08,110 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/wizards/res_config_settings_views.xml
+2026-11-07 06:53:08,188 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/security/ir.access.csv
+2026-11-07 06:53:08,420 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:53:08,498 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module sale_pdf_quote_builder loaded in 1.66s, 446 queries (+446 other)
+2026-11-07 06:53:08,498 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module sale_purchase_stock (100/109)
+2026-11-07 06:53:08,562 1636 INFO gt_reauth_p1_20261107 odoo.registry: module sale_purchase_stock: creating or updating database tables
+2026-11-07 06:53:08,750 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_purchase_stock/views/purchase_order_views.xml
+2026-11-07 06:53:08,871 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading sale_purchase_stock/views/stock_picking_views.xml
+2026-11-07 06:53:09,015 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:53:09,030 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module sale_purchase_stock loaded in 0.53s, 171 queries (+171 other)
+2026-11-07 06:53:09,030 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module sale_service (101/109)
+2026-11-07 06:53:09,079 1636 INFO gt_reauth_p1_20261107 odoo.registry: module sale_service: creating or updating database tables
+2026-11-07 06:53:09,325 1636 INFO gt_reauth_p1_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 06:53:09,328 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Module sale_service loaded in 0.30s, 80 queries (+80 other)
+2026-11-07 06:53:09,328 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module gt_repair_reauthorization (102/109)
+2026-11-07 06:53:09,362 1636 WARNING gt_reauth_p1_20261107 odoo.registry: Model attribute '_sql_constraints' is no longer supported, please define models.Constraint on the model.
+2026-11-07 06:53:09,390 1636 INFO gt_reauth_p1_20261107 odoo.registry: module gt_repair_reauthorization: creating or updating database tables
+2026-11-07 06:53:09,883 1636 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/security/authorization_security.xml
+2026-11-07 06:53:10,275 1636 WARNING gt_reauth_p1_20261107 odoo.modules.loading: Transient module states were reset
+2026-11-07 06:53:10,276 1636 ERROR gt_reauth_p1_20261107 odoo.registry: Failed to load registry
+2026-11-07 06:53:10,276 1636 CRITICAL gt_reauth_p1_20261107 odoo.service.server: Failed to initialize database `gt_reauth_p1_20261107`.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\convert.py", line 630, in _tag_root
+    f(rec)
+    ~^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\convert.py", line 482, in _tag_record
+    record = model._load_records([data], self.mode == 'update')
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4707, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4614, in _load_records_create
+    records = self.create(vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\addons\base\models\res_groups.py", line 269, in create
+    res = super().create(vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\decorators.py", line 330, in create
+    return method(self, vals_list)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\models.py", line 4131, in create
+    raise ValueError(f"Invalid field {field_name!r} in {self._name!r}")
+ValueError: Invalid field 'category_id' in 'res.groups'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1520, in preload_registries
+    registry = Registry.new(dbname, update_module=update_module, install_modules=config['init'], upgrade_modules=config['update'], reinit_modules=config['reinit'])
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\func.py", line 67, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\registry.py", line 222, in new
+    contextvars.Context().run(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        load_modules,
+        ^^^^^^^^^^^^^
+    ...<6 lines>...
+        new_db_demo=new_db_demo,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\modules\loading.py", line 449, in load_modules
+    load_module_graph(
+    ~~~~~~~~~~~~~~~~~^
+        env, graph, update_module=update_module,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        report=report)
+        ^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\modules\loading.py", line 211, in load_module_graph
+    load_data(env, idref, 'init', kind='data', package=package)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\modules\loading.py", line 56, in load_data
+    convert_file(env, package.name, filename, idref, mode, noupdate=kind == 'demo')
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\convert.py", line 718, in convert_file
+    convert_xml_import(env, module, fp, idref, mode, noupdate)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\convert.py", line 817, in convert_xml_import
+    obj.parse(doc.getroot())
+    ~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\convert.py", line 688, in parse
+    self._tag_root(de)
+    ~~~~~~~~~~~~~~^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\convert.py", line 643, in _tag_root
+    raise ParseError('while parsing %s:%s, somewhere inside\n%s' % (
+    ...<3 lines>...
+    )) from e
+odoo.tools.convert.ParseError: while parsing file:/c:/pycharmprojects/odoo20/custom_addons/gt_repair_reauthorization/security/authorization_security.xml:8, somewhere inside
+<record id="group_repair_authorization_technician" model="res.groups">
+        <field name="name">Repair Authorization Technician / Viewer</field>
+        <field name="category_id" ref="module_category_repair_reauthorization"/>
+        <field name="implied_ids" eval="[(4, ref('stock.group_stock_user'))]"/>
+    </record>
+2026-11-07 06:53:10,311 1636 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Initiating shutdown
+2026-11-07 06:53:10,311 1636 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-11-07 06:53:10,311 1636 INFO gt_reauth_p1_20261107 odoo.addons.bus.websocket: Disconnecting 0 websockets
+2026-11-07 06:53:10,418 1636 INFO gt_reauth_p1_20261107 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 
