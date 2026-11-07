@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_repair_authorization_list" model="ir.ui.view">
+        <field name="name">gt.repair.authorization.list</field>
+        <field name="model">gt.repair.authorization</field>
+        <field name="arch" type="xml">
+            <list string="Customer Authorizations" create="false" edit="false" delete="false">
+                <field name="name"/>
+                <field name="repair_id"/>
+                <field name="sale_order_id"/>
+                <field name="partner_id"/>
+                <field name="authorization_datetime"/>
+                <field name="authorized_by_id"/>
+                <field name="approved_total" sum="Approved Total"/>
+                <field name="currency_id" column_invisible="True"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_repair_authorization_form" model="ir.ui.view">
+        <field name="name">gt.repair.authorization.form</field>
+        <field name="model">gt.repair.authorization</field>
+        <field name="arch" type="xml">
+            <form string="Customer Authorization" create="false" edit="false" delete="false">
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="state" widget="badge"/>
+                            <field name="repair_id"/>
+                            <field name="sale_order_id" string="Quotation"/>
+                            <field name="partner_id"/>
+                            <field name="company_id" groups="base.group_multi_company"/>
+                            <field name="currency_id"/>
+                        </group>
+                        <group>
+                            <field name="version"/>
+                            <field name="authorization_datetime"/>
+                            <field name="customer_response_datetime"/>
+                            <field name="authorized_by_id"/>
+                            <field name="previous_authorization_id"/>
+                        </group>
+                    </group>
+                    <group string="Approved Totals">
+                        <field name="approved_untaxed_total"/>
+                        <field name="approved_tax_total"/>
+                        <field name="approved_total"/>
+                    </group>
+                    <notebook>
+                        <page string="Approved Lines">
+                            <field name="line_ids" readonly="1">
+                                <list create="false" edit="false" delete="false">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="scope_type"/>
+                                    <field name="product_name"/>
+                                    <field name="product_default_code" optional="hide"/>
+                                    <field name="description"/>
+                                    <field name="quantity"/>
+                                    <field name="uom_name"/>
+                                    <field name="price_unit"/>
+                                    <field name="discount"/>
+                                    <field name="tax_names"/>
+                                    <field name="untaxed_subtotal" sum="Untaxed"/>
+                                    <field name="tax_amount" sum="Tax"/>
+                                    <field name="customer_total" sum="Customer Total"/>
+                                    <field name="currency_id" column_invisible="True"/>
+                                </list>
+                                <form string="Approved Line" create="false" edit="false" delete="false">
+                                    <group>
+                                        <group>
+                                            <field name="scope_type"/>
+                                            <field name="product_id"/>
+                                            <field name="product_name"/>
+                                            <field name="product_default_code"/>
+                                            <field name="description"/>
+                                            <field name="source_line_reference"/>
+                                            <field name="source_sale_line_id"/>
+                                            <field name="source_sale_line_db_id"/>
+                                        </group>
+                                        <group>
+                                            <field name="quantity"/>
+                                            <field name="uom_id"/>
+                                            <field name="uom_name"/>
+                                            <field name="price_unit"/>
+                                            <field name="discount"/>
+                                            <field name="tax_names"/>
+                                            <field name="untaxed_subtotal"/>
+                                            <field name="tax_amount"/>
+                                            <field name="customer_total"/>
+                                            <field name="currency_id"/>
+                                        </group>
+                                    </group>
+                                    <group string="Historical Tax Context">
+                                        <field name="tax_snapshot" nolabel="1"/>
+                                    </group>
+                                    <group string="Repair Source">
+                                        <field name="source_repair_move_ids"/>
+                                        <field name="source_repair_service_line_id"/>
+                                    </group>
+                                </form>
+                            </field>
+                        </page>
+                        <page string="Customer Evidence">
+                            <group>
+                                <field name="evidence_type"/>
+                                <field name="evidence_reference"/>
+                                <field name="evidence_email" invisible="evidence_type != 'email'"/>
+                                <field name="evidence_file" filename="evidence_filename" invisible="evidence_type != 'file'"/>
+                                <field name="evidence_filename" invisible="evidence_type != 'file'"/>
+                            </group>
+                            <p class="text-muted">This snapshot records the staff member's report of customer approval. It does not authenticate the sender's identity.</p>
+                        </page>
+                        <page string="Notes">
+                            <field name="note"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_repair_authorization" model="ir.actions.act_window">
+        <field name="name">Customer Authorizations</field>
+        <field name="res_model">gt.repair.authorization</field>
+        <field name="view_mode">list,form</field>
+        <field name="view_id" ref="view_repair_authorization_list"/>
+        <field name="context">{'search_default_state': 'authorized'}</field>
+    </record>
+
+    <menuitem id="menu_repair_authorizations"
+              name="Customer Authorizations"
+              parent="repair.menu_repair_order"
+              action="action_repair_authorization"
+              groups="group_repair_authorization_technician"
+              sequence="90"/>
+</odoo>

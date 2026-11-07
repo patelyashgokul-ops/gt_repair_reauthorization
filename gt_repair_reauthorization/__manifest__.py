@@ -1,0 +1,23 @@
+{
+    "name": "Repair Reauthorization",
+    "summary": "Protect customer approval records for revised repair estimates.",
+    "version": "20.0.1.0.0",
+    "author": "Golok Technology",
+    "category": "Inventory/Inventory",
+    "license": "OPL-1",
+    "price": 49.0,
+    "currency": "USD",
+    "sequence": 1,
+    "depends": ["repair"],
+    "data": [
+        "security/authorization_security.xml",
+        "security/ir.access.csv",
+        "views/authorization_views.xml",
+        "views/repair_views.xml",
+        "views/sale_order_views.xml",
+        "wizard/authorization_capture_views.xml",
+    ],
+    "application": True,
+    "installable": True,
+    "auto_install": False,
+}

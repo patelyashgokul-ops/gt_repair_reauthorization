@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_repair_authorization_capture_wizard" model="ir.ui.view">
+        <field name="name">gt.repair.authorization.capture.wizard.form</field>
+        <field name="model">gt.repair.authorization.capture.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Record Original Customer Authorization">
+                <group>
+                    <group>
+                        <field name="repair_id"/>
+                        <field name="sale_order_id" string="Quotation"/>
+                        <field name="company_id" groups="base.group_multi_company"/>
+                        <field name="currency_id"/>
+                        <field name="source_fingerprint" invisible="1"/>
+                    </group>
+                    <group>
+                        <field name="customer_response_datetime"/>
+                        <field name="evidence_type"/>
+                        <field name="evidence_filename" invisible="evidence_type != 'file'"/>
+                    </group>
+                </group>
+                <group string="Repair Scope to Approve">
+                    <field name="scope_preview" nolabel="1" readonly="1"/>
+                </group>
+                <group string="Customer Approval Evidence">
+                    <field name="evidence_reference" placeholder="Customer sender or file source, response date, and quotation revision"/>
+                    <field name="evidence_email" invisible="evidence_type != 'email'" placeholder="Paste the relevant customer email text"/>
+                    <field name="evidence_file" filename="evidence_filename" invisible="evidence_type != 'file'"/>
+                    <field name="evidence_scope_confirmed"/>
+                    <field name="note" placeholder="Optional internal note"/>
+                </group>
+                <div class="text-muted">This records your report that the customer approved the displayed quotation scope. It does not authenticate the sender's identity.</div>
+                <footer>
+                    <button name="action_record_authorization" type="object"
+                            string="Record Customer Authorization" class="btn-primary"/>
+                    <button string="Cancel" special="cancel" class="btn-secondary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

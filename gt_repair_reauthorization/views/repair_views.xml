@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_repair_order_form_authorization" model="ir.ui.view">
+        <field name="name">repair.order.form.authorization</field>
+        <field name="model">repair.order</field>
+        <field name="inherit_id" ref="repair.view_repair_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="action_open_original_authorization_capture"
+                        type="object"
+                        string="Record Original Customer Authorization"
+                        class="btn-primary"
+                        groups="gt_repair_reauthorization.group_repair_authorization_adviser"
+                        invisible="not sale_order_id or authorization_count"/>
+            </xpath>
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button name="action_view_authorizations" type="object"
+                        class="oe_stat_button" icon="fa-shield"
+                        groups="gt_repair_reauthorization.group_repair_authorization_technician"
+                        invisible="not authorization_count">
+                    <field name="authorization_count" widget="statinfo" string="Authorizations"/>
+                </button>
+            </xpath>
+            <xpath expr="//sheet/notebook" position="inside">
+                <page string="Customer Authorization"
+                      groups="gt_repair_reauthorization.group_repair_authorization_technician">
+                    <group>
+                        <field name="authorization_status"/>
+                        <field name="authorization_count" invisible="1"/>
+                    </group>
+                    <field name="authorization_ids" readonly="1">
+                        <list create="false" edit="false" delete="false">
+                            <field name="name"/>
+                            <field name="sale_order_id"/>
+                            <field name="authorization_datetime"/>
+                            <field name="authorized_by_id"/>
+                            <field name="approved_total"/>
+                            <field name="currency_id" column_invisible="True"/>
+                        </list>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
