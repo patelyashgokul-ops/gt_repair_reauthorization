@@ -1,0 +1,177 @@
+2026-11-07 07:18:57,728 24676 INFO ? odoo: Odoo version 20.0
+2026-11-07 07:18:57,728 24676 INFO ? odoo: Using configuration file at c:\pycharmprojects\odoo20\odoo-20.0\odoo.conf
+2026-11-07 07:18:57,728 24676 INFO ? odoo: addons paths: _NamespacePath(['C:\\PycharmProjects\\odoo20\\odoo-20.0\\odoo\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\.test_data_verified\\addons\\20.0', 'c:\\pycharmprojects\\odoo20\\odoo-20.0\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons'])
+2026-11-07 07:18:57,729 24676 INFO ? odoo: database: odoo@localhost:5432
+2026-11-07 07:19:00,541 24676 INFO ? odoo.service.server: HTTP service running on 127.0.0.1:8071
+2026-11-07 07:19:00,595 24676 INFO gt_reauth_p1_verified_20261107 odoo.tests.common: Importing test framework
+2026-11-07 07:19:00,737 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Initializing database gt_reauth_p1_verified_20261107
+2026-11-07 07:19:02,951 24676 WARNING gt_reauth_p1_verified_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 07:19:02,961 24676 WARNING gt_reauth_p1_verified_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 07:19:03,144 24676 WARNING gt_reauth_p1_verified_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 07:19:03,144 24676 WARNING gt_reauth_p1_verified_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 07:19:03,145 24676 WARNING gt_reauth_p1_verified_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 07:19:03,146 24676 WARNING gt_reauth_p1_verified_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 07:19:03,438 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading 1 modules...
+2026-11-07 07:19:03,438 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Loading module base (1/1)
+2026-11-07 07:19:03,529 24676 INFO gt_reauth_p1_verified_20261107 odoo.tools.version_tag_reset: Detected tp_versions_used at offset 410, reset enabled
+2026-11-07 07:19:03,529 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: module base: creating or updating database tables
+2026-11-07 07:19:04,401 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of ir.module.module.menus_by_module in 661 records
+2026-11-07 07:19:04,406 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of ir.module.module.reports_by_module in 661 records
+2026-11-07 07:19:04,410 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of ir.module.module.views_by_module in 661 records
+2026-11-07 07:19:04,702 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.partner.user_id in 1 records
+2026-11-07 07:19:04,711 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.partner.commercial_partner_id in 1 records
+2026-11-07 07:19:04,717 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.partner.complete_name in 1 records
+2026-11-07 07:19:04,721 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.partner.lang in 1 records
+2026-11-07 07:19:04,738 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.partner.commercial_company_name in 1 records
+2026-11-07 07:19:04,742 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.partner.properties in 1 records
+2026-11-07 07:19:04,758 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.partner.partner_share in 1 records
+2026-11-07 07:19:04,850 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.currency.decimal_places in 1 records
+2026-11-07 07:19:04,936 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.company.company_details in 1 records
+2026-11-07 07:19:04,941 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.company.uses_default_logo in 1 records
+2026-11-07 07:19:04,946 24676 INFO gt_reauth_p1_verified_20261107 odoo.models: Computing parent_path for table res_company...
+2026-11-07 07:19:05,002 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.users.signature in 1 records
+2026-11-07 07:19:05,005 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.users.share in 1 records
+2026-11-07 07:19:09,866 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/res.lang.csv
+2026-11-07 07:19:10,015 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/res_lang_data.xml
+2026-11-07 07:19:10,140 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/res_partner_data.xml
+2026-11-07 07:19:10,429 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/res_currency_data.xml
+2026-11-07 07:19:12,058 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/res_company_data.xml
+2026-11-07 07:19:12,104 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/res_users_data.xml
+2026-11-07 07:19:13,897 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/report_paperformat_data.xml
+2026-11-07 07:19:13,918 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/res_country_data.xml
+2026-11-07 07:19:15,267 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/clearing_label_data.xml
+2026-11-07 07:19:15,317 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/ir_demo_data.xml
+2026-11-07 07:19:15,348 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/security/base_groups.xml
+2026-11-07 07:19:15,966 24676 INFO gt_reauth_p1_verified_20261107 odoo.addons.base.models.res_users: Group change: user 1 with IP n/a changed groups of user 3 who belonged to [] with changes [(<Command.LINK: 4>, 12, 0)]
+2026-11-07 07:19:16,110 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/wizard/wizard_ir_model_menu_create_views.xml
+2026-11-07 07:19:16,161 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/decimal_precision_views.xml
+2026-11-07 07:19:16,205 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_config_views.xml
+2026-11-07 07:19:16,216 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/res.country.state.csv
+2026-11-07 07:19:17,213 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_actions_views.xml
+2026-11-07 07:19:17,573 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_asset_views.xml
+2026-11-07 07:19:17,620 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_config_parameter_views.xml
+2026-11-07 07:19:17,656 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_cron_views.xml
+2026-11-07 07:19:17,731 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml
+2026-11-07 07:19:17,783 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_filters_views.xml
+2026-11-07 07:19:17,847 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_mail_server_views.xml
+2026-11-07 07:19:17,909 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_model_views.xml
+2026-11-07 07:19:18,180 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_attachment_views.xml
+2026-11-07 07:19:18,225 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_access_views.xml
+2026-11-07 07:19:18,297 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_sequence_views.xml
+2026-11-07 07:19:18,355 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_ui_menu_views.xml
+2026-11-07 07:19:18,409 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_ui_view_views.xml
+2026-11-07 07:19:18,517 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_default_views.xml
+2026-11-07 07:19:18,562 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/ir_config_parameter_data.xml
+2026-11-07 07:19:18,569 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/ir_cron_data.xml
+2026-11-07 07:19:18,612 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/report/ir_model_report.xml
+2026-11-07 07:19:18,626 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/report/ir_model_templates.xml
+2026-11-07 07:19:18,646 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_logging_views.xml
+2026-11-07 07:19:18,696 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml
+2026-11-07 07:19:18,732 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_module_views.xml
+2026-11-07 07:19:18,825 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/ir_module_category_data.xml
+2026-11-07 07:19:18,936 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/ir_module_module.xml
+2026-11-07 07:19:19,087 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/report/ir_module_reports.xml
+2026-11-07 07:19:19,098 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/report/ir_module_report_templates.xml
+2026-11-07 07:19:19,114 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/wizard/base_module_update_views.xml
+2026-11-07 07:19:19,150 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/wizard/base_language_install_views.xml
+2026-11-07 07:19:19,181 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/wizard/base_import_language_views.xml
+2026-11-07 07:19:19,206 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml
+2026-11-07 07:19:19,240 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml
+2026-11-07 07:19:19,269 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/wizard/base_export_language_views.xml
+2026-11-07 07:19:19,291 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml
+2026-11-07 07:19:19,347 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/ir_demo_failure_data.xml
+2026-11-07 07:19:19,388 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/ir_profile_views.xml
+2026-11-07 07:19:19,497 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_company_views.xml
+2026-11-07 07:19:19,560 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_lang_views.xml
+2026-11-07 07:19:19,605 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_partner_views.xml
+2026-11-07 07:19:19,824 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/clearing_label_views.xml
+2026-11-07 07:19:19,835 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_partner_bank_views.xml
+2026-11-07 07:19:19,896 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_country_views.xml
+2026-11-07 07:19:19,952 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_country_group_views.xml
+2026-11-07 07:19:19,998 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_country_state_views.xml
+2026-11-07 07:19:20,034 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_currency_views.xml
+2026-11-07 07:19:20,132 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_groups_views.xml
+2026-11-07 07:19:20,231 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_users_views.xml
+2026-11-07 07:19:20,453 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_users_apikeys_views.xml
+2026-11-07 07:19:20,476 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_device_views.xml
+2026-11-07 07:19:20,558 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml
+2026-11-07 07:19:20,585 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/res_config_settings_views.xml
+2026-11-07 07:19:20,598 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/report_paperformat_views.xml
+2026-11-07 07:19:20,622 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/ir_action_data.xml
+2026-11-07 07:19:20,634 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/data/website.xml
+2026-11-07 07:19:20,642 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/views/base_menus.xml
+2026-11-07 07:19:21,128 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base/security/ir.access.csv
+2026-11-07 07:19:21,946 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:19:22,312 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Module base loaded in 18.87s, 8630 queries (+8630 other)
+2026-11-07 07:19:22,313 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: 1 modules loaded in 18.87s, 8630 queries (+8630 extra)
+2026-11-07 07:19:22,328 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: updating modules list
+2026-11-07 07:19:22,336 24676 INFO gt_reauth_p1_verified_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2026-11-07 07:19:23,730 24676 WARNING gt_reauth_p1_verified_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 07:19:23,778 24676 WARNING gt_reauth_p1_verified_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 07:19:23,778 24676 WARNING gt_reauth_p1_verified_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 07:19:23,849 24676 INFO gt_reauth_p1_verified_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Repair Reauthorization'] to user __system__ #1 via n/a
+2026-11-07 07:19:24,107 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading 69 modules...
+2026-11-07 07:19:24,108 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Loading module base_report_wkhtmltox (2/69)
+2026-11-07 07:19:24,133 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: module base_report_wkhtmltox: creating or updating database tables
+2026-11-07 07:19:24,254 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:19:24,261 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Module base_report_wkhtmltox loaded in 0.15s, 44 queries (+44 other)
+2026-11-07 07:19:24,261 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Loading module rpc (3/69)
+2026-11-07 07:19:24,286 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: Caches invalidated, signaling through the database: ['default', 'stable']
+2026-11-07 07:19:24,297 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Module rpc loaded in 0.04s, 12 queries (+12 other)
+2026-11-07 07:19:24,297 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Loading module uom (4/69)
+2026-11-07 07:19:24,313 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: module uom: creating or updating database tables
+2026-11-07 07:19:24,466 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading uom/data/uom_data.xml
+2026-11-07 07:19:24,629 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading uom/security/uom_security.xml
+2026-11-07 07:19:24,677 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading uom/views/uom_uom_views.xml
+2026-11-07 07:19:24,736 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading uom/security/ir.access.csv
+2026-11-07 07:19:24,795 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:19:24,804 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Module uom loaded in 0.51s, 294 queries (+294 other)
+2026-11-07 07:19:24,804 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Loading module web (5/69)
+2026-11-07 07:19:24,857 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: module web: creating or updating database tables
+2026-11-07 07:19:25,590 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/views/webclient_templates.xml
+2026-11-07 07:19:25,797 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/views/report_templates.xml
+2026-11-07 07:19:26,030 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/views/base_document_layout_views.xml
+2026-11-07 07:19:26,063 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/views/partner_view.xml
+2026-11-07 07:19:26,099 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/views/speedscope_template.xml
+2026-11-07 07:19:26,130 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/views/memory_template.xml
+2026-11-07 07:19:26,163 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/views/speedscope_config_wizard.xml
+2026-11-07 07:19:26,199 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/views/neutralize_views.xml
+2026-11-07 07:19:26,229 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/views/ir_ui_view_views.xml
+2026-11-07 07:19:26,256 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/data/ir_attachment.xml
+2026-11-07 07:19:26,274 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/data/report_layout.xml
+2026-11-07 07:19:26,347 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading web/security/ir.access.csv
+2026-11-07 07:19:26,501 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:19:26,611 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Module web loaded in 1.81s, 1394 queries (+1394 other)
+2026-11-07 07:19:26,611 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Loading module api_doc (6/69)
+2026-11-07 07:19:26,629 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: module api_doc: creating or updating database tables
+2026-11-07 07:19:26,653 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading api_doc/security/res_groups.xml
+2026-11-07 07:19:26,697 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading api_doc/views/docclient.xml
+2026-11-07 07:19:26,729 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:19:26,738 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Module api_doc loaded in 0.13s, 88 queries (+88 other)
+2026-11-07 07:19:26,738 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Loading module auth_totp (7/69)
+2026-11-07 07:19:26,812 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: module auth_totp: creating or updating database tables
+2026-11-07 07:19:26,919 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading auth_totp/data/ir_action_data.xml
+2026-11-07 07:19:26,937 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading auth_totp/views/res_users_views.xml
+2026-11-07 07:19:26,990 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading auth_totp/views/templates.xml
+2026-11-07 07:19:27,006 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml
+2026-11-07 07:19:27,021 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading auth_totp/security/ir.access.csv
+2026-11-07 07:19:27,095 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:19:27,109 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Module auth_totp loaded in 0.37s, 208 queries (+208 other)
+2026-11-07 07:19:27,109 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Loading module barcodes (8/69)
+2026-11-07 07:19:27,131 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: module barcodes: creating or updating database tables
+2026-11-07 07:19:27,223 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading barcodes/data/barcodes_data.xml
+2026-11-07 07:19:27,237 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading barcodes/views/barcodes_view.xml
+2026-11-07 07:19:27,283 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading barcodes/views/res_partner_views.xml
+2026-11-07 07:19:27,301 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading barcodes/security/ir.access.csv
+2026-11-07 07:19:27,356 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:19:27,361 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Module barcodes loaded in 0.25s, 185 queries (+185 other)
+2026-11-07 07:19:27,361 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: Loading module base_address_extended (9/69)
+2026-11-07 07:19:27,388 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: module base_address_extended: creating or updating database tables
+2026-11-07 07:19:27,415 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.partner.street_name in 5 records
+2026-11-07 07:19:27,418 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.partner.street_number in 5 records
+2026-11-07 07:19:27,422 24676 INFO gt_reauth_p1_verified_20261107 odoo.fields: Prepare computation of res.partner.street_number2 in 5 records
+2026-11-07 07:19:27,576 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base_address_extended/views/res_city_view.xml
+2026-11-07 07:19:27,635 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base_address_extended/views/res_country_view.xml
+2026-11-07 07:19:27,676 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base_address_extended/views/res_partner_views.xml
+2026-11-07 07:19:27,710 24676 INFO gt_reauth_p1_verified_20261107 odoo.modules.loading: loading base_address_extended/security/ir.access.csv
+2026-11-07 07:19:27,834 24676 INFO gt_reauth_p1_verified_20261107 odoo.registry: Registry changed, signaling through the database
