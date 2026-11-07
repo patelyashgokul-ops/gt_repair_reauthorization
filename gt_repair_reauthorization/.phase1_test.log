@@ -527,3 +527,82 @@ odoo.tools.convert.ParseError: while parsing file:/c:/pycharmprojects/odoo20/cus
 2026-11-07 06:54:41,530 21508 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
 2026-11-07 06:54:41,530 21508 INFO gt_reauth_p1_20261107 odoo.addons.bus.websocket: Disconnecting 0 websockets
 2026-11-07 06:54:41,636 21508 INFO gt_reauth_p1_20261107 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 
+2026-11-07 06:55:36,192 25596 WARNING ? odoo.tools.config: option --without-demo: since 19.0, invalid boolean value: 'all', assume True
+2026-11-07 06:55:36,194 25596 INFO ? odoo: Odoo version 20.0
+2026-11-07 06:55:36,194 25596 INFO ? odoo: Using configuration file at c:\pycharmprojects\odoo20\odoo-20.0\odoo.conf
+2026-11-07 06:55:36,194 25596 INFO ? odoo: addons paths: _NamespacePath(['C:\\PycharmProjects\\odoo20\\odoo-20.0\\odoo\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\.test_data\\addons\\20.0', 'c:\\pycharmprojects\\odoo20\\odoo-20.0\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons'])
+2026-11-07 06:55:36,195 25596 INFO ? odoo: database: odoo@localhost:5432
+2026-11-07 06:55:37,991 25596 INFO ? odoo.service.server: HTTP service running on 127.0.0.1:8071
+2026-11-07 06:55:38,033 25596 INFO gt_reauth_p1_20261107 odoo.tests.common: Importing test framework
+2026-11-07 06:55:38,156 25596 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading 1 modules...
+2026-11-07 06:55:38,162 25596 INFO gt_reauth_p1_20261107 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra)
+2026-11-07 06:55:38,223 25596 INFO gt_reauth_p1_20261107 odoo.tools.version_tag_reset: Detected tp_versions_used at offset 410, reset enabled
+2026-11-07 06:55:38,223 25596 INFO gt_reauth_p1_20261107 odoo.modules.loading: updating modules list
+2026-11-07 06:55:38,235 25596 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2026-11-07 06:55:39,801 25596 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 06:55:39,802 25596 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 06:55:39,869 25596 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 06:55:39,869 25596 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 06:55:39,870 25596 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 06:55:39,870 25596 WARNING gt_reauth_p1_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 06:55:40,041 25596 INFO gt_reauth_p1_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Repair Reauthorization'] to user __system__ #1 via n/a
+2026-11-07 06:55:40,187 25596 WARNING gt_reauth_p1_20261107 odoo.modules.module_graph: module supplier_rebate_recovery: not installable, skipped
+2026-11-07 06:55:40,191 25596 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading 102 modules...
+2026-11-07 06:55:41,016 25596 WARNING gt_reauth_p1_20261107 odoo.addons.mail.controllers.attachment: markdown2 is not installed, markdown will not be rendered
+2026-11-07 06:55:43,325 25596 INFO gt_reauth_p1_20261107 odoo.modules.loading: Loading module gt_repair_reauthorization (102/102)
+2026-11-07 06:55:43,940 25596 INFO gt_reauth_p1_20261107 odoo.registry: module gt_repair_reauthorization: creating or updating database tables
+2026-11-07 06:55:44,749 25596 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/security/authorization_security.xml
+2026-11-07 06:55:44,943 25596 INFO gt_reauth_p1_20261107 odoo.modules.loading: loading gt_repair_reauthorization/security/ir.access.csv
+2026-11-07 06:55:44,998 25596 ERROR gt_reauth_p1_20261107 odoo.sql_db: bad query: b'INSERT INTO "ir_access" ("active", "create_date", "create_uid", "domain", "group_id", "model_id", "name", "operation", "write_date", "write_uid") VALUES (true, \'2026-11-07T06:55:38.136434\'::timestamp, 1, \'[(\'\'company_id\'\', \'\'in\'\', company_ids)]\', 81, 2808, \'Repair authorization viewer\', \'r\', \'2026-11-07T06:55:38.136434\'::timestamp, 1), (true, \'2026-11-07T06:55:38.136434\'::timestamp, 1, \'[(\'\'company_id\'\', \'\'in\'\', company_ids)]\', 82, 2808, \'Repair authorization adviser\', \'r\', \'2026-11-07T06:55:38.136434\'::timestamp, 1), (true, \'2026-11-07T06:55:38.136434\'::timestamp, 1, \'[(\'\'company_id\'\', \'\'in\'\', company_ids)]\', 83, 2808, \'Repair authorization manager\', \'r\', \'2026-11-07T06:55:38.136434\'::timestamp, 1), (true, \'2026-11-07T06:55:38.136434\'::timestamp, 1, \'[(\'\'company_id\'\', \'\'in\'\', company_ids)]\', 81, 2809, \'Repair authorization line viewer\', \'r\', \'2026-11-07T06:55:38.136434\'::timestamp, 1), (true, \'2026-11-07T06:55:38.136434\'::timestamp, 1, \'[(\'\'company_id\'\', \'\'in\'\', company_ids)]\', 82, 2809, \'Repair authorization line adviser\', \'r\', \'2026-11-07T06:55:38.136434\'::timestamp, 1), (true, \'2026-11-07T06:55:38.136434\'::timestamp, 1, \'[(\'\'company_id\'\', \'\'in\'\', company_ids)]\', 83, 2809, \'Repair authorization line manager\', \'r\', \'2026-11-07T06:55:38.136434\'::timestamp, 1), (true, \'2026-11-07T06:55:38.136434\'::timestamp, 1, \'[(\'\'company_id\'\', \'\'in\'\', company_ids)]\', 82, 2811, \'Repair authorization capture wizard\', DEFAULT, \'2026-11-07T06:55:38.136434\'::timestamp, 1) RETURNING "id"'
+ERROR: null value in column "operation" of relation "ir_access" violates not-null constraint
+DETAIL:  Failing row contains (1162, 2811, 82, 1, 1, Repair authorization capture wizard, null, [('company_id', 'in', company_ids)], null, t, 2026-11-07 06:55:38.136434, 2026-11-07 06:55:38.136434).
+
+2026-11-07 06:55:45,209 25596 ERROR gt_reauth_p1_20261107 odoo.sql_db: bad query: b'INSERT INTO "ir_access" ("active", "create_date", "create_uid", "domain", "group_id", "model_id", "name", "write_date", "write_uid") VALUES (true, \'2026-11-07T06:55:38.136434\'::timestamp, 1, \'[(\'\'company_id\'\', \'\'in\'\', company_ids)]\', 82, 2811, \'Repair authorization capture wizard\', \'2026-11-07T06:55:38.136434\'::timestamp, 1) RETURNING "id"'
+ERROR: null value in column "operation" of relation "ir_access" violates not-null constraint
+DETAIL:  Failing row contains (1169, 2811, 82, 1, 1, Repair authorization capture wizard, null, [('company_id', 'in', company_ids)], null, t, 2026-11-07 06:55:38.136434, 2026-11-07 06:55:38.136434).
+
+2026-11-07 06:55:45,637 25596 WARNING gt_reauth_p1_20261107 odoo.modules.loading: Transient module states were reset
+2026-11-07 06:55:45,638 25596 ERROR gt_reauth_p1_20261107 odoo.registry: Failed to load registry
+2026-11-07 06:55:45,639 25596 CRITICAL gt_reauth_p1_20261107 odoo.service.server: Failed to initialize database `gt_reauth_p1_20261107`.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1520, in preload_registries
+    registry = Registry.new(dbname, update_module=update_module, install_modules=config['init'], upgrade_modules=config['update'], reinit_modules=config['reinit'])
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\func.py", line 67, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\orm\registry.py", line 222, in new
+    contextvars.Context().run(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        load_modules,
+        ^^^^^^^^^^^^^
+    ...<6 lines>...
+        new_db_demo=new_db_demo,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\modules\loading.py", line 449, in load_modules
+    load_module_graph(
+    ~~~~~~~~~~~~~~~~~^
+        env, graph, update_module=update_module,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        report=report)
+        ^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\modules\loading.py", line 211, in load_module_graph
+    load_data(env, idref, 'init', kind='data', package=package)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\modules\loading.py", line 56, in load_data
+    convert_file(env, package.name, filename, idref, mode, noupdate=kind == 'demo')
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\convert.py", line 714, in convert_file
+    convert_csv_import(env, module, pathname, fp.read(), idref, mode, noupdate)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\convert.py", line 775, in convert_csv_import
+    raise Exception(env._(
+    ...<4 lines>...
+    ))
+Exception: Module loading gt_repair_reauthorization failed: file gt_repair_reauthorization\security/ir.access.csv could not be processed:
+Value 'crw' not found in selection field 'Operation'
+Missing required field 'Operation' (operation) for model 'Access' (ir.access)
+2026-11-07 06:55:45,645 25596 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Initiating shutdown
+2026-11-07 06:55:45,645 25596 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-11-07 06:55:45,645 25596 INFO gt_reauth_p1_20261107 odoo.addons.bus.websocket: Disconnecting 0 websockets
+2026-11-07 06:55:45,756 25596 INFO gt_reauth_p1_20261107 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 
