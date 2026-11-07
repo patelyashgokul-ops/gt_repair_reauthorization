@@ -220,11 +220,16 @@ class TestRepairAuthorizationCapture(TransactionCase):
         snapshot = authorization.line_ids.filtered(lambda line: line.scope_type == "part")
         original = (snapshot.product_name, snapshot.description, snapshot.quantity, snapshot.price_unit, snapshot.discount, snapshot.customer_total)
 
+        self.part.write({"name": "Renamed after authorization", "default_code": "NEW-CODE"})
+        self.tax_excluded.name = "Tax renamed after authorization"
         part_line.write({"name": "Changed later", "price_unit": 999.0, "discount": 80.0})
         self.assertEqual(
             (snapshot.product_name, snapshot.description, snapshot.quantity, snapshot.price_unit, snapshot.discount, snapshot.customer_total),
             original,
         )
+        self.assertEqual(snapshot.product_default_code, "SNAP-PART")
+        self.assertEqual(snapshot.tax_names, "Authorization test 10% excluded")
+        self.assertEqual(snapshot.tax_snapshot["configured_taxes"][0]["name"], "Authorization test 10% excluded")
         source_id = part_line.id
         part_line.unlink()
         self.assertFalse(snapshot.source_sale_line_id)
@@ -294,6 +299,66 @@ class TestRepairAuthorizationCapture(TransactionCase):
         quote.action_cancel()
         with self.assertRaisesRegex(UserError, "quotation is cancelled"):
             repair.with_user(self.adviser).action_open_original_authorization_capture()
+
+    def test_repair_without_quotation_cannot_capture_an_invoice_as_customer_approval(self):
+        repair = self.env["repair.order"].create({
+            "product_id": self.device.id,
+            "uom_id": self.unit.id,
+            "picking_type_id": self.warehouse.repair_type_id.id,
+            "partner_id": self.customer.id,
+        })
+        with self.assertRaisesRegex(UserError, "Link a customer-facing quotation"):
+            repair.with_user(self.adviser).action_open_original_authorization_capture()
+
+    def test_shared_quotation_creates_repair_scoped_snapshots(self):
+        repair_a, quote, _part_a, _service_a = self._create_repair_and_quote()
+        repair_b = self.env["repair.order"].create({
+            "product_id": self.device.id,
+            "uom_id": self.unit.id,
+            "picking_type_id": self.warehouse.repair_type_id.id,
+            "partner_id": self.customer.id,
+            "move_ids": [Command.create({
+                "product_id": self.part.id,
+                "product_uom_qty": 1.0,
+                "uom_id": self.unit.id,
+                "state": "draft",
+                "repair_line_type": "add",
+                "company_id": self.company.id,
+            })],
+            "repair_service_line_ids": [Command.create({
+                "product_id": self.service.id,
+                "quantity": 1.0,
+                "uom_id": self.unit.id,
+                "description": "Second repair service",
+            })],
+        })
+        repair_b.sale_order_id = quote
+        repair_b.move_ids._create_repair_sale_order_line()
+        repair_b.repair_service_line_ids._create_repair_sale_order_line()
+        self.assertEqual(len(quote.repair_order_ids), 2)
+
+        authorization_a = self._record_approval(repair_a)
+        authorization_b = self._record_approval(repair_b)
+        self.assertEqual(len(authorization_a.line_ids), 2)
+        self.assertEqual(len(authorization_b.line_ids), 2)
+        self.assertTrue(set(authorization_a.line_ids.mapped("source_sale_line_db_id")).isdisjoint(
+            authorization_b.line_ids.mapped("source_sale_line_db_id")
+        ))
+        self.assertTrue(all(line.source_repair_move_db_ids == repair_a.move_ids.ids or line.scope_type == "service" for line in authorization_a.line_ids))
+        self.assertTrue(all(line.source_repair_move_db_ids == repair_b.move_ids.ids or line.scope_type == "service" for line in authorization_b.line_ids))
+
+    def test_cancelling_quotation_after_capture_does_not_change_history(self):
+        repair, quote, _part, _service = self._create_repair_and_quote()
+        authorization = self._record_approval(repair)
+        original = (authorization.approved_untaxed_total, authorization.approved_tax_total, authorization.approved_total)
+        quote.action_cancel()
+        self.assertEqual(quote.state, "cancel")
+        self.assertEqual(authorization.sale_order_id.state, "cancel")
+        self.assertEqual(
+            (authorization.approved_untaxed_total, authorization.approved_tax_total, authorization.approved_total),
+            original,
+        )
+        self.assertEqual(len(authorization.line_ids), 2)
 
     def test_confirmed_quotation_alone_is_not_customer_evidence(self):
         repair, quote, _part, _service = self._create_repair_and_quote()
