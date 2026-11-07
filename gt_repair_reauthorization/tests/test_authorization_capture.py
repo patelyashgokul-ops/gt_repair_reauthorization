@@ -341,7 +341,7 @@ class TestRepairAuthorizationCapture(TransactionCase):
         self.assertEqual(len(authorization.line_ids.with_user(self.technician)), 2)
         with self.assertRaises(UserError):
             authorization.with_user(self.technician).write({"approved_total": 1.0})
-        with self.assertRaises(AccessError):
+        with self.assertRaises(UserError):
             authorization.with_user(self.technician).unlink()
         with self.assertRaises(AccessError):
             authorization.with_user(self.technician).read(["evidence_email"])
