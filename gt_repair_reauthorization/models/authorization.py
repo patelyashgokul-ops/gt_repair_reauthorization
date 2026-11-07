@@ -96,13 +96,10 @@ class RepairAuthorization(models.Model):
         readonly=True, copy=False,
     )
 
-    _sql_constraints = [
-        (
-            "repair_version_unique",
-            "unique(repair_id, version)",
-            "An authorization version can only be recorded once for a repair.",
-        ),
-    ]
+    _repair_version_unique = models.Constraint(
+        "unique(repair_id, version)",
+        "An authorization version can only be recorded once for a repair.",
+    )
 
     @api.model_create_multi
     def create(self, vals_list):

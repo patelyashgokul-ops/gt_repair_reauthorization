@@ -4,31 +4,26 @@
         <field name="name">Repair Reauthorization</field>
         <field name="sequence">42</field>
     </record>
+    <record id="privilege_repair_authorization" model="res.groups.privilege">
+        <field name="name">Repair Authorization</field>
+        <field name="sequence">42</field>
+        <field name="category_id" ref="module_category_repair_reauthorization"/>
+    </record>
 
     <record id="group_repair_authorization_technician" model="res.groups">
         <field name="name">Repair Authorization Technician / Viewer</field>
-        <field name="category_id" ref="module_category_repair_reauthorization"/>
+        <field name="privilege_id" ref="privilege_repair_authorization"/>
         <field name="implied_ids" eval="[(4, ref('stock.group_stock_user'))]"/>
     </record>
     <record id="group_repair_authorization_adviser" model="res.groups">
         <field name="name">Repair Authorization Service Adviser</field>
-        <field name="category_id" ref="module_category_repair_reauthorization"/>
+        <field name="privilege_id" ref="privilege_repair_authorization"/>
         <field name="implied_ids" eval="[(4, ref('group_repair_authorization_technician')), (4, ref('sales_team.group_sale_salesman'))]"/>
     </record>
     <record id="group_repair_authorization_manager" model="res.groups">
         <field name="name">Repair Authorization Manager</field>
-        <field name="category_id" ref="module_category_repair_reauthorization"/>
+        <field name="privilege_id" ref="privilege_repair_authorization"/>
         <field name="implied_ids" eval="[(4, ref('group_repair_authorization_adviser'))]"/>
     </record>
 
-    <record id="rule_repair_authorization_company" model="ir.rule">
-        <field name="name">Repair authorization company isolation</field>
-        <field name="model_id" ref="model_gt_repair_authorization"/>
-        <field name="domain_force">[('company_id', 'in', company_ids)]</field>
-    </record>
-    <record id="rule_repair_authorization_line_company" model="ir.rule">
-        <field name="name">Repair authorization line company isolation</field>
-        <field name="model_id" ref="model_gt_repair_authorization_line"/>
-        <field name="domain_force">[('company_id', 'in', company_ids)]</field>
-    </record>
 </odoo>
