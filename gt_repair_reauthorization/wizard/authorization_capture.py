@@ -1,11 +1,7 @@
 from odoo import _, api, fields, models
 from odoo.exceptions import AccessError, UserError
 
-from ..models.authorization import (
-    ADVISER_GROUP,
-    _build_original_snapshot,
-    _fingerprint_repair_scope,
-)
+from ..models.authorization import ADVISER_GROUP, _build_original_snapshot
 
 
 class RepairAuthorizationCaptureWizard(models.TransientModel):
@@ -58,7 +54,7 @@ class RepairAuthorizationCaptureWizard(models.TransientModel):
             sale_order,
             self.read([
                 "evidence_type", "evidence_reference", "evidence_email", "evidence_file",
-                "evidence_filename", "customer_response_datetime", "note",
+                "evidence_filename", "customer_response_datetime", "note", "source_fingerprint",
             ])[0],
             scope_lines,
             totals,

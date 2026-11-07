@@ -126,15 +126,16 @@ class TestRepairAuthorizationCapture(TransactionCase):
         service_line = quote.order_line.filtered("repair_service_line_id")
         self.assertEqual(len(part_line), 1)
         self.assertEqual(len(service_line), 1)
+        taxes = self.company == company
         part_line.write({
             "price_unit": 100.0,
             "discount": 10.0,
-            "tax_ids": [Command.set([self.tax_excluded.id])],
+            "tax_ids": [Command.set([self.tax_excluded.id] if taxes else [])],
         })
         service_line.write({
             "price_unit": 55.0,
             "discount": 0.0,
-            "tax_ids": [Command.set([self.tax_included.id])],
+            "tax_ids": [Command.set([self.tax_included.id] if taxes else [])],
         })
         return repair, quote, part_line, service_line
 

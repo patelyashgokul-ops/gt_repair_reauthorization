@@ -46,6 +46,7 @@ class RepairAuthorization(models.Model):
     currency_id = fields.Many2one("res.currency", required=True, readonly=True, ondelete="restrict")
     currency_code = fields.Char(required=True, readonly=True)
     version = fields.Integer(required=True, readonly=True, default=1, copy=False)
+    quotation_fingerprint = fields.Char(required=True, readonly=True, copy=False, index=True)
     state = fields.Selection(
         [("authorized", "Customer Authorized")],
         required=True, readonly=True, default="authorized", copy=False,
@@ -136,6 +137,7 @@ class RepairAuthorization(models.Model):
             "currency_id": sale_order.currency_id.id,
             "currency_code": sale_order.currency_id.name,
             "version": 1,
+            "quotation_fingerprint": wizard_values["source_fingerprint"],
             "state": "authorized",
             "authorization_datetime": fields.Datetime.now(),
             "customer_response_datetime": wizard_values.get("customer_response_datetime") or False,
@@ -353,6 +355,9 @@ def _validated_scope_lines(repair, sale_order):
 
         moves = line.move_ids
         service_line = line.repair_service_line_id
+        repair_moves = moves.filtered(lambda move: move.repair_id == repair)
+        if service_line and service_line.repair_id == repair and repair_moves:
+            raise UserError(_("A quotation line is linked to both a repair part and a service; map it unambiguously before recording approval."))
         owners = moves.repair_id | service_line.repair_id
         if line == repair.sale_order_line_id:
             owners |= repair
@@ -370,14 +375,14 @@ def _validated_scope_lines(repair, sale_order):
                 raise UserError(_("A quotation line cannot be matched to this repair. Remove or map the ambiguous line before recording approval."))
         elif service_line and service_line.repair_id == repair:
             scope_type = "service"
-        elif moves.filtered(lambda move: move.repair_id == repair and move.repair_line_type == "add"):
+        elif repair_moves.filtered(lambda move: move.repair_line_type == "add"):
             scope_type = "part"
         elif line == repair.sale_order_line_id:
             scope_type = "service" if line.product_id.type == "service" else "other"
         else:
             raise UserError(_("A quotation line is not a chargeable repair part or service for this repair."))
 
-        if moves.filtered(lambda move: move.repair_id == repair and move.repair_line_type != "add"):
+        if repair_moves.filtered(lambda move: move.repair_line_type != "add"):
             raise UserError(_("A quotation line is linked to a removed or recycled part and cannot be authorized as a charge."))
 
         tax_snapshot = _line_tax_snapshot(line)
@@ -387,9 +392,9 @@ def _validated_scope_lines(repair, sale_order):
             "source_sale_line_db_id": line.id,
             "source_line_sequence": line.sequence,
             "source_sale_line_id": line.id,
-            "source_repair_move_ids": [Command.set(moves.filtered(lambda move: move.repair_id == repair).ids)],
+            "source_repair_move_ids": [Command.set(repair_moves.ids)],
             "source_repair_service_line_id": service_line.id if service_line and service_line.repair_id == repair else False,
-            "source_repair_move_db_ids": moves.filtered(lambda move: move.repair_id == repair).ids,
+            "source_repair_move_db_ids": repair_moves.ids,
             "source_repair_service_line_db_id": service_line.id if service_line and service_line.repair_id == repair else 0,
             "source_line_reference": f"{sale_order.name or sale_order.id} / line {line.sequence} / record {line.id}",
             "company_id": repair.company_id.id,
