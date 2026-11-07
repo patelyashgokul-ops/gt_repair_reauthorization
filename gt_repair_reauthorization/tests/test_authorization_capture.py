@@ -140,8 +140,10 @@ class TestRepairAuthorizationCapture(TransactionCase):
         return repair, quote, part_line, service_line
 
     def _open_capture(self, repair, user=None):
-        action = repair.with_user(user or self.adviser).action_open_original_authorization_capture()
-        return self.env[action["res_model"]].with_user(user or self.adviser).browse(action["res_id"])
+        user = user or self.adviser
+        context = {"allowed_company_ids": user.company_ids.ids}
+        action = repair.with_user(user).with_context(**context).action_open_original_authorization_capture()
+        return self.env[action["res_model"]].with_user(user).with_context(**context).browse(action["res_id"])
 
     def _record_approval(self, repair, user=None, evidence_type="email"):
         user = user or self.adviser
@@ -263,8 +265,11 @@ class TestRepairAuthorizationCapture(TransactionCase):
             "partner_id": self.customer.id,
             "company_id": self.company.id,
         })
-        repair.sale_order_id = unrelated
+        from ..models.authorization import _validated_scope_lines
         with self.assertRaisesRegex(UserError, "does not belong to the selected repair"):
+            _validated_scope_lines(repair, unrelated)
+        repair.sale_order_id = unrelated
+        with self.assertRaisesRegex(UserError, "No identifiable chargeable repair lines"):
             repair.with_user(self.adviser).action_open_original_authorization_capture()
 
         repair, quote, _part, _service = self._create_repair_and_quote()
@@ -360,6 +365,7 @@ class TestRepairAuthorizationCapture(TransactionCase):
             "name": "Authorization Test Company B",
             "currency_id": self.currency.id,
         })
+        self.env.user.write({"company_ids": [Command.link(company_b.id)]})
         warehouse_b = self.env["stock.warehouse"].search([("company_id", "=", company_b.id)], limit=1)
         if not warehouse_b:
             warehouse_b = self.env["stock.warehouse"].create({

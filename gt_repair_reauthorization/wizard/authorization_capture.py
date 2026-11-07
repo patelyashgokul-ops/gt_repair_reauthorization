@@ -19,7 +19,7 @@ class RepairAuthorizationCaptureWizard(models.TransientModel):
         required=True, default="email",
     )
     evidence_reference = fields.Text(
-        string="Evidence Context", required=True,
+        string="Evidence Context",
         help="Record the sender or file source, response date, and quotation revision. This records staff-reported evidence and does not authenticate the sender's identity.",
     )
     evidence_email = fields.Text(string="Customer Email Text")
@@ -28,6 +28,7 @@ class RepairAuthorizationCaptureWizard(models.TransientModel):
     evidence_scope_confirmed = fields.Boolean(
         string="I verified that this evidence explicitly approves the customer, quotation revision, and displayed repair scope.",
         required=True,
+        default=False,
     )
     customer_response_datetime = fields.Datetime(string="Customer Response Date")
     note = fields.Text(string="Internal Note")

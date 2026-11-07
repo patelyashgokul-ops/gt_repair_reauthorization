@@ -432,10 +432,9 @@ def _format_scope_preview(currency, scope_lines):
     rows = []
     for line in scope_lines:
         rows.append(
-            _("%(description)s — %(quantity)s %(uom)s; unit %(unit)s; discount %(discount)s%%; total %(total)s",
-              description=line["description"], quantity=line["quantity"], uom=line["uom_name"],
-              unit=currency.format(line["price_unit"]), discount=line["discount"],
-              total=currency.format(line["customer_total"]),)
+            f"{line['description']} — {line['quantity']} {line['uom_name']}; "
+            f"unit {currency.format(line['price_unit'])}; discount {line['discount']}%; "
+            f"total {currency.format(line['customer_total'])}"
         )
     return "\n".join(rows)
 
