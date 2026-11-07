@@ -150,7 +150,7 @@ class TestRepairAuthorizationCapture(TransactionCase):
         wizard = self._open_capture(repair, user)
         values = {
             "evidence_type": evidence_type,
-            "evidence_reference": f"Customer response for repair {repair.name}, quotation {repair.sale_order_id.name}, revision reviewed by service adviser.",
+            "evidence_reference": f"Customer {repair.partner_id.display_name}; repair {repair.name}; quotation {repair.sale_order_id.name}; revision reviewed by service adviser.",
             "evidence_scope_confirmed": True,
             "customer_response_datetime": fields.Datetime.now(),
         }
@@ -251,7 +251,7 @@ class TestRepairAuthorizationCapture(TransactionCase):
         wizard = self._open_capture(repair)
         wizard.write({
             "evidence_email": "Please proceed with this quotation.",
-            "evidence_reference": "Customer response to the estimate revision shown in the form.",
+            "evidence_reference": f"Customer {repair.partner_id.display_name}; repair {repair.name}; quotation {repair.sale_order_id.name}; response to this estimate revision.",
             "evidence_scope_confirmed": True,
         })
         part_line.write({"price_unit": 101.0})
@@ -309,13 +309,13 @@ class TestRepairAuthorizationCapture(TransactionCase):
         second_wizard = self._open_capture(repair)
         first_wizard.write({
             "evidence_email": "Please proceed with the estimate.",
-            "evidence_reference": "Customer approval email for this repair and quotation.",
+            "evidence_reference": f"Customer {repair.partner_id.display_name}; repair {repair.name}; quotation {repair.sale_order_id.name}; customer approval email.",
             "evidence_scope_confirmed": True,
         })
         first_wizard.action_record_authorization()
         second_wizard.write({
             "evidence_email": "Please proceed with the same estimate.",
-            "evidence_reference": "Customer approval email for the same repair and quotation.",
+            "evidence_reference": f"Customer {repair.partner_id.display_name}; repair {repair.name}; quotation {repair.sale_order_id.name}; customer approval email.",
             "evidence_scope_confirmed": True,
         })
         with self.assertRaisesRegex(UserError, "already been recorded"):

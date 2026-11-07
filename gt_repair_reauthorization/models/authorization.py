@@ -1,5 +1,3 @@
-import base64
-import binascii
 import hashlib
 import json
 
@@ -444,6 +442,14 @@ def _check_evidence(wizard):
         raise ValidationError(_("Customer approval evidence is required."))
     if not wizard.evidence_scope_confirmed:
         raise ValidationError(_("Confirm that the evidence explicitly approves this customer, quotation revision, and displayed repair scope."))
+    evidence_context = wizard.evidence_reference.strip().casefold()
+    identifiers = (
+        wizard.repair_id.name,
+        wizard.sale_order_id.name,
+        wizard.repair_id.partner_id.display_name,
+    )
+    if any(not identifier or identifier.casefold() not in evidence_context for identifier in identifiers):
+        raise ValidationError(_("Evidence context must identify this customer, repair, and quotation revision."))
     if wizard.evidence_type == "email":
         if not wizard.evidence_email or not wizard.evidence_email.strip():
             raise ValidationError(_("Customer approval evidence is required: record the approving email."))
@@ -454,10 +460,7 @@ def _check_evidence(wizard):
             raise ValidationError(_("Customer approval evidence is required: attach the approval file."))
         if wizard.evidence_email:
             raise ValidationError(_("Choose either recorded email evidence or an evidence file."))
-        try:
-            raw = wizard.evidence_file.content
-        except (binascii.Error, ValueError, TypeError) as error:
-            raise ValidationError(_("The evidence file is not valid base64 data.")) from error
+        raw = wizard.evidence_file.content
         if not raw or len(raw) > MAX_EVIDENCE_BYTES:
             raise ValidationError(_("The evidence file must be non-empty and no larger than 10 MB."))
     else:

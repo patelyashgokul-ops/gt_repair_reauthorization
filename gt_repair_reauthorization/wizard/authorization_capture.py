@@ -1,7 +1,7 @@
 from odoo import _, api, fields, models
-from odoo.exceptions import AccessError, UserError
+from odoo.exceptions import AccessError, UserError, ValidationError
 
-from ..models.authorization import ADVISER_GROUP, _build_original_snapshot
+from ..models.authorization import ADVISER_GROUP, MAX_EVIDENCE_BYTES, _build_original_snapshot
 
 
 class RepairAuthorizationCaptureWizard(models.TransientModel):
@@ -44,6 +44,12 @@ class RepairAuthorizationCaptureWizard(models.TransientModel):
         if protected.intersection(vals):
             raise UserError(_("The repair, quotation, and displayed scope cannot be changed in this capture form."))
         return super().write(vals)
+
+    @api.constrains("evidence_file")
+    def _check_evidence_file_size(self):
+        for wizard in self:
+            if wizard.evidence_file and wizard.evidence_file.size > MAX_EVIDENCE_BYTES:
+                raise ValidationError(_("The evidence file must be no larger than 10 MB."))
 
     def action_record_authorization(self):
         self.ensure_one()
