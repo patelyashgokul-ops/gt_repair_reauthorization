@@ -5310,3 +5310,915 @@ Stack (most recent call last):
 2026-11-07 07:04:26,717 13084 INFO gt_reauth_p1_20261107 odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
 2026-11-07 07:04:26,717 13084 INFO gt_reauth_p1_20261107 odoo.addons.bus.websocket: Disconnecting 0 websockets
 2026-11-07 07:04:26,826 13084 INFO gt_reauth_p1_20261107 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 
+2026-11-07 07:09:59,741 7344 WARNING ? odoo.tools.config: option --without-demo: since 19.0, invalid boolean value: 'all', assume True
+2026-11-07 07:09:59,745 7344 INFO ? odoo: Odoo version 20.0
+2026-11-07 07:09:59,745 7344 INFO ? odoo: Using configuration file at c:\pycharmprojects\odoo20\odoo-20.0\odoo.conf
+2026-11-07 07:09:59,745 7344 INFO ? odoo: addons paths: _NamespacePath(['C:\\PycharmProjects\\odoo20\\odoo-20.0\\odoo\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\.test_data_final\\addons\\20.0', 'c:\\pycharmprojects\\odoo20\\odoo-20.0\\addons', 'c:\\pycharmprojects\\odoo20\\custom_addons'])
+2026-11-07 07:09:59,745 7344 INFO ? odoo: database: odoo@localhost:5432
+2026-11-07 07:10:01,866 7344 INFO ? odoo.service.server: HTTP service running on 127.0.0.1:8071
+2026-11-07 07:10:01,944 7344 INFO gt_reauth_p1_final_20261107 odoo.tests.common: Importing test framework
+2026-11-07 07:10:02,305 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading 1 modules...
+2026-11-07 07:10:02,314 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra)
+2026-11-07 07:10:02,371 7344 INFO gt_reauth_p1_final_20261107 odoo.tools.version_tag_reset: Detected tp_versions_used at offset 410, reset enabled
+2026-11-07 07:10:02,371 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: updating modules list
+2026-11-07 07:10:02,382 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2026-11-07 07:10:04,666 7344 WARNING gt_reauth_p1_final_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 07:10:04,668 7344 WARNING gt_reauth_p1_final_20261107 odoo.modules.module: Missing `author` key in manifest for 'supplier_shortage_claim_reconciliation', defaulting to ''
+2026-11-07 07:10:04,789 7344 WARNING gt_reauth_p1_final_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 07:10:04,789 7344 WARNING gt_reauth_p1_final_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 07:10:04,859 7344 WARNING gt_reauth_p1_final_20261107 odoo.modules.module: Missing `author` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to ''
+2026-11-07 07:10:04,860 7344 WARNING gt_reauth_p1_final_20261107 odoo.modules.module: Missing `license` key in manifest for 'vendor_price_revision_impact_simulator', defaulting to LGPL-3
+2026-11-07 07:10:05,034 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Repair Reauthorization'] to user __system__ #1 via n/a
+2026-11-07 07:10:05,303 7344 WARNING gt_reauth_p1_final_20261107 odoo.modules.module_graph: module supplier_rebate_recovery: not installable, skipped
+2026-11-07 07:10:05,307 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading 109 modules...
+2026-11-07 07:10:06,261 7344 WARNING gt_reauth_p1_final_20261107 odoo.addons.mail.controllers.attachment: markdown2 is not installed, markdown will not be rendered
+2026-11-07 07:10:07,765 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module barcodes (78/109)
+2026-11-07 07:10:08,197 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module barcodes: creating or updating database tables
+2026-11-07 07:10:08,800 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading barcodes/data/barcodes_data.xml
+2026-11-07 07:10:08,812 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading barcodes/views/barcodes_view.xml
+2026-11-07 07:10:08,948 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading barcodes/views/res_partner_views.xml
+2026-11-07 07:10:08,991 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading barcodes/security/ir.access.csv
+2026-11-07 07:10:11,504 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:11,526 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module barcodes loaded in 3.76s, 895 queries (+895 other)
+2026-11-07 07:10:11,527 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module barcodes_gs1_nomenclature (79/109)
+2026-11-07 07:10:11,556 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module barcodes_gs1_nomenclature: creating or updating database tables
+2026-11-07 07:10:11,676 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading barcodes_gs1_nomenclature/data/barcodes_gs1_rules.xml
+2026-11-07 07:10:11,796 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading barcodes_gs1_nomenclature/views/barcodes_view.xml
+2026-11-07 07:10:11,932 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:11,939 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module barcodes_gs1_nomenclature loaded in 0.41s, 207 queries (+207 other)
+2026-11-07 07:10:11,940 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sales_team (80/109)
+2026-11-07 07:10:11,985 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sales_team: creating or updating database tables
+2026-11-07 07:10:12,035 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of res.users.sale_team_id in 4 records
+2026-11-07 07:10:12,307 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sales_team/security/sales_team_security.xml
+2026-11-07 07:10:12,578 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sales_team/data/crm_team_data.xml
+2026-11-07 07:10:12,651 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sales_team/views/crm_tag_views.xml
+2026-11-07 07:10:12,705 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sales_team/views/crm_team_views.xml
+2026-11-07 07:10:12,762 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sales_team/views/crm_team_member_views.xml
+2026-11-07 07:10:12,820 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sales_team/views/mail_activity_views.xml
+2026-11-07 07:10:12,829 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sales_team/security/ir.access.csv
+2026-11-07 07:10:12,964 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:13,496 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sales_team loaded in 1.56s, 465 queries (+465 other)
+2026-11-07 07:10:13,497 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module stock (81/109)
+2026-11-07 07:10:14,104 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module stock: creating or updating database tables
+2026-11-07 07:10:23,388 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/security/stock_security.xml
+2026-11-07 07:10:25,099 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/data/digest_data.xml
+2026-11-07 07:10:25,159 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/data/mail_message_subtype_data.xml
+2026-11-07 07:10:25,184 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/data/mail_templates.xml
+2026-11-07 07:10:25,217 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/data/default_barcode_patterns.xml
+2026-11-07 07:10:25,257 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/data/stock_data.xml
+2026-11-07 07:10:26,193 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/data/stock_sequence_data.xml
+2026-11-07 07:10:26,398 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/data/stock_traceability_report_data.xml
+2026-11-07 07:10:26,416 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/report_stock_quantity.xml
+2026-11-07 07:10:26,500 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/report_stock_reception.xml
+2026-11-07 07:10:26,520 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/stock_report_views.xml
+2026-11-07 07:10:26,614 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/report_package_barcode.xml
+2026-11-07 07:10:26,693 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/report_lot_barcode.xml
+2026-11-07 07:10:26,717 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/report_location_barcode.xml
+2026-11-07 07:10:26,749 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/report_picking_batch.xml
+2026-11-07 07:10:26,803 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/report_stockpicking_operations.xml
+2026-11-07 07:10:26,876 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/report_deliveryslip.xml
+2026-11-07 07:10:26,960 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/report_stockinventory.xml
+2026-11-07 07:10:26,977 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/report_stock_rule.xml
+2026-11-07 07:10:27,068 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/package_templates.xml
+2026-11-07 07:10:27,098 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/picking_templates.xml
+2026-11-07 07:10:27,141 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/product_templates.xml
+2026-11-07 07:10:27,192 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/report_return_slip.xml
+2026-11-07 07:10:27,246 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/report/stock_allocation_report.xml
+2026-11-07 07:10:27,259 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/data/mail_template_data.xml
+2026-11-07 07:10:27,314 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_menu_views.xml
+2026-11-07 07:10:27,588 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_add_to_wave_views.xml
+2026-11-07 07:10:27,622 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_inventory_conflict.xml
+2026-11-07 07:10:27,643 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_backorder_confirmation_views.xml
+2026-11-07 07:10:27,657 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_zero_demand_confirmation_views.xml
+2026-11-07 07:10:27,674 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_request_count.xml
+2026-11-07 07:10:27,702 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_replenishment_info.xml
+2026-11-07 07:10:27,761 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_rules_report_views.xml
+2026-11-07 07:10:27,787 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_warn_insufficient_qty_views.xml
+2026-11-07 07:10:27,822 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/product_replenish_views.xml
+2026-11-07 07:10:27,849 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/product_label_layout_views.xml
+2026-11-07 07:10:27,883 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_orderpoint_snooze_views.xml
+2026-11-07 07:10:27,907 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_orderpoint_suggest.xml
+2026-11-07 07:10:27,939 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_package_destination_views.xml
+2026-11-07 07:10:27,958 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_picking_to_batch_views.xml
+2026-11-07 07:10:27,982 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_inventory_adjustment_name.xml
+2026-11-07 07:10:28,007 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_inventory_warning.xml
+2026-11-07 07:10:28,033 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_label_type.xml
+2026-11-07 07:10:28,052 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_lot_label_layout.xml
+2026-11-07 07:10:28,066 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_quant_relocate.xml
+2026-11-07 07:10:28,084 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/wizard/stock_put_in_pack_views.xml
+2026-11-07 07:10:28,108 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/res_partner_views.xml
+2026-11-07 07:10:28,235 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/product_strategy_views.xml
+2026-11-07 07:10:28,323 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_lot_views.xml
+2026-11-07 07:10:28,599 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_quant_views.xml
+2026-11-07 07:10:29,955 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_warehouse_views.xml
+2026-11-07 07:10:30,010 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_move_line_views.xml
+2026-11-07 07:10:30,312 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_move_views.xml
+2026-11-07 07:10:30,702 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_picking_views.xml
+2026-11-07 07:10:31,794 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_picking_batch_views.xml
+2026-11-07 07:10:32,725 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_picking_type_views.xml
+2026-11-07 07:10:33,133 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/product_views.xml
+2026-11-07 07:10:34,332 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_location_views.xml
+2026-11-07 07:10:35,231 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_orderpoint_views.xml
+2026-11-07 07:10:35,475 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_storage_category_views.xml
+2026-11-07 07:10:35,564 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/res_config_settings_views.xml
+2026-11-07 07:10:35,756 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/report_stock_traceability.xml
+2026-11-07 07:10:35,792 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_template.xml
+2026-11-07 07:10:35,882 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_rule_views.xml
+2026-11-07 07:10:36,009 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_scrap_reason_tag_views.xml
+2026-11-07 07:10:36,025 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_package_history_views.xml
+2026-11-07 07:10:36,118 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_package_type_view.xml
+2026-11-07 07:10:36,197 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_package_views.xml
+2026-11-07 07:10:36,355 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_forecasted.xml
+2026-11-07 07:10:36,375 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/stock_reference_views.xml
+2026-11-07 07:10:36,438 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/uom_uom_views.xml
+2026-11-07 07:10:36,495 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/views/digest_digest_views.xml
+2026-11-07 07:10:36,536 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock/security/ir.access.csv
+2026-11-07 07:10:37,562 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:37,842 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module stock loaded in 24.35s, 5719 queries (+5719 other)
+2026-11-07 07:10:37,843 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module project_stock (82/109)
+2026-11-07 07:10:37,960 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module project_stock: creating or updating database tables
+2026-11-07 07:10:38,466 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading project_stock/views/stock_picking_views.xml
+2026-11-07 07:10:38,698 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading project_stock/views/project_project_views.xml
+2026-11-07 07:10:38,999 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:39,008 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module project_stock loaded in 1.17s, 137 queries (+137 other)
+2026-11-07 07:10:39,009 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module stock_account (83/109)
+2026-11-07 07:10:39,333 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module stock_account: creating or updating database tables
+2026-11-07 07:10:40,737 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/security/stock_account_security.xml
+2026-11-07 07:10:40,934 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/data/stock_account_data.xml
+2026-11-07 07:10:40,968 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/views/account_move_views.xml
+2026-11-07 07:10:41,145 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/views/res_config_settings_views.xml
+2026-11-07 07:10:41,206 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/views/report_invoice.xml
+2026-11-07 07:10:41,259 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/views/stock_quant_views.xml
+2026-11-07 07:10:42,106 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/views/product_views.xml
+2026-11-07 07:10:42,311 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/views/product_value_views.xml
+2026-11-07 07:10:42,379 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/views/stock_location_views.xml
+2026-11-07 07:10:42,404 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/views/stock_lot_views.xml
+2026-11-07 07:10:42,423 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/views/stock_move_views.xml
+2026-11-07 07:10:42,664 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/wizard/stock_inventory_adjustment_name_views.xml
+2026-11-07 07:10:42,681 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/report/account_invoice_report_view.xml
+2026-11-07 07:10:42,689 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/report/stock_avco_audit_report_views.xml
+2026-11-07 07:10:42,712 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_account/security/ir.access.csv
+2026-11-07 07:10:43,239 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:43,674 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module stock_account loaded in 4.67s, 893 queries (+893 other)
+2026-11-07 07:10:43,675 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module stock_sms (84/109)
+2026-11-07 07:10:43,784 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module stock_sms: creating or updating database tables
+2026-11-07 07:10:44,081 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_sms/data/sms_data.xml
+2026-11-07 07:10:44,092 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_sms/views/res_config_settings_views.xml
+2026-11-07 07:10:44,211 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_sms/wizard/confirm_stock_sms_views.xml
+2026-11-07 07:10:44,221 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading stock_sms/security/ir.access.csv
+2026-11-07 07:10:44,444 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:44,448 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module stock_sms loaded in 0.77s, 218 queries (+218 other)
+2026-11-07 07:10:44,448 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module project_stock_account (85/109)
+2026-11-07 07:10:44,501 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module project_stock_account: creating or updating database tables
+2026-11-07 07:10:44,535 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of stock.picking.type.analytic_costs in 8 records
+2026-11-07 07:10:44,678 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading project_stock_account/views/stock_picking_type_views.xml
+2026-11-07 07:10:44,889 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:44,898 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module project_stock_account loaded in 0.45s, 111 queries (+111 other)
+2026-11-07 07:10:44,899 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module purchase_stock (86/109)
+2026-11-07 07:10:45,129 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module purchase_stock: creating or updating database tables
+2026-11-07 07:10:45,185 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of purchase.order.picking_ids
+2026-11-07 07:10:45,349 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of stock.replenishment.info.supplierinfo_ids
+2026-11-07 07:10:45,931 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/data/purchase_stock_data.xml
+2026-11-07 07:10:46,110 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/data/mail_templates.xml
+2026-11-07 07:10:46,128 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/report/vendor_delay_report.xml
+2026-11-07 07:10:46,207 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/views/purchase_views.xml
+2026-11-07 07:10:46,314 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/views/stock_views.xml
+2026-11-07 07:10:46,373 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/views/stock_picking_views.xml
+2026-11-07 07:10:46,413 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/views/stock_rule_views.xml
+2026-11-07 07:10:46,431 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/views/res_config_settings_views.xml
+2026-11-07 07:10:46,516 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/views/res_partner_views.xml
+2026-11-07 07:10:46,564 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/views/stock_lot_views.xml
+2026-11-07 07:10:46,582 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/views/stock_orderpoint_views.xml
+2026-11-07 07:10:46,594 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/views/stock_reference_views.xml
+2026-11-07 07:10:46,623 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/views/product_views.xml
+2026-11-07 07:10:46,782 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/report/purchase_report_views.xml
+2026-11-07 07:10:46,795 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/report/purchase_report_templates.xml
+2026-11-07 07:10:46,817 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/report/report_stock_rule.xml
+2026-11-07 07:10:46,827 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/wizard/stock_replenishment_info.xml
+2026-11-07 07:10:46,847 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/wizard/product_replenish_views.xml
+2026-11-07 07:10:46,857 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_stock/security/ir.access.csv
+2026-11-07 07:10:47,094 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:47,143 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module purchase_stock loaded in 2.24s, 1013 queries (+1013 other)
+2026-11-07 07:10:47,143 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale (87/109)
+2026-11-07 07:10:47,340 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale: creating or updating database tables
+2026-11-07 07:10:47,644 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of sale.order.line.product_no_variant_attribute_value_ids
+2026-11-07 07:10:47,659 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of sale.order.line.tax_ids
+2026-11-07 07:10:50,033 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/security/res_groups.xml
+2026-11-07 07:10:51,375 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/report/account_invoice_report_views.xml
+2026-11-07 07:10:51,636 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/report/ir_actions_report_templates.xml
+2026-11-07 07:10:51,832 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/report/ir_actions_report.xml
+2026-11-07 07:10:51,884 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/report/sale_report_views.xml
+2026-11-07 07:10:52,204 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/data/ir_cron.xml
+2026-11-07 07:10:52,469 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/data/ir_sequence_data.xml
+2026-11-07 07:10:52,483 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/data/mail_message_subtype_data.xml
+2026-11-07 07:10:52,552 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/data/mail_template_data.xml
+2026-11-07 07:10:52,777 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/data/portal_entry_data.xml
+2026-11-07 07:10:52,844 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/data/sale_tour.xml
+2026-11-07 07:10:52,874 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/data/ir_config_parameter.xml
+2026-11-07 07:10:52,943 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/wizard/account_accrued_orders_wizard_views.xml
+2026-11-07 07:10:53,009 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/wizard/mass_cancel_orders_views.xml
+2026-11-07 07:10:53,155 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/wizard/payment_link_wizard_views.xml
+2026-11-07 07:10:53,211 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/wizard/res_config_settings_views.xml
+2026-11-07 07:10:53,402 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml
+2026-11-07 07:10:53,445 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/wizard/sale_order_discount_views.xml
+2026-11-07 07:10:53,464 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/sale_order_views.xml
+2026-11-07 07:10:54,115 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/account_views.xml
+2026-11-07 07:10:54,335 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/account_analytic_line_views.xml
+2026-11-07 07:10:54,387 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/crm_team_views.xml
+2026-11-07 07:10:54,463 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/mail_activity_views.xml
+2026-11-07 07:10:54,475 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/payment_views.xml
+2026-11-07 07:10:54,534 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/product_document_views.xml
+2026-11-07 07:10:54,601 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/product_template_views.xml
+2026-11-07 07:10:54,738 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/product_views.xml
+2026-11-07 07:10:55,045 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/res_partner_views.xml
+2026-11-07 07:10:55,226 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/sale_order_line_views.xml
+2026-11-07 07:10:55,270 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/sale_portal_templates.xml
+2026-11-07 07:10:55,430 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/utm_campaign_views.xml
+2026-11-07 07:10:55,483 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/views/sale_menus.xml
+2026-11-07 07:10:55,649 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale/security/ir.access.csv
+2026-11-07 07:10:56,522 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:56,637 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale loaded in 9.49s, 2592 queries (+2592 other)
+2026-11-07 07:10:56,637 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module spreadsheet_dashboard_stock_account (88/109)
+2026-11-07 07:10:56,706 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading spreadsheet_dashboard_stock_account/data/dashboards.xml
+2026-11-07 07:10:56,941 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Caches invalidated, signaling through the database: ['default', 'stable']
+2026-11-07 07:10:56,948 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module spreadsheet_dashboard_stock_account loaded in 0.31s, 35 queries (+35 other)
+2026-11-07 07:10:56,949 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module mass_mailing_sale (89/109)
+2026-11-07 07:10:57,000 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module mass_mailing_sale: creating or updating database tables
+2026-11-07 07:10:57,147 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading mass_mailing_sale/views/mailing_mailing_views.xml
+2026-11-07 07:10:57,331 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:57,336 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module mass_mailing_sale loaded in 0.39s, 114 queries (+114 other)
+2026-11-07 07:10:57,336 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module project_purchase_stock (90/109)
+2026-11-07 07:10:57,410 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module project_purchase_stock: creating or updating database tables
+2026-11-07 07:10:57,732 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:57,748 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module project_purchase_stock loaded in 0.41s, 90 queries (+90 other)
+2026-11-07 07:10:57,748 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_edi_ubl (91/109)
+2026-11-07 07:10:57,847 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_edi_ubl: creating or updating database tables
+2026-11-07 07:10:58,194 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_edi_ubl/security/ir.access.csv
+2026-11-07 07:10:58,391 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:10:58,400 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_edi_ubl loaded in 0.65s, 199 queries (+199 other)
+2026-11-07 07:10:58,400 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_management (92/109)
+2026-11-07 07:10:58,534 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_management: creating or updating database tables
+2026-11-07 07:10:59,529 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_management/data/digest_data.xml
+2026-11-07 07:10:59,585 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_management/views/sale_order_template_views.xml
+2026-11-07 07:10:59,819 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_management/views/digest_views.xml
+2026-11-07 07:10:59,861 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_management/views/res_config_settings_views.xml
+2026-11-07 07:10:59,957 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_management/views/sale_order_views.xml
+2026-11-07 07:11:00,117 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_management/views/sale_portal_templates.xml
+2026-11-07 07:11:00,164 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_management/views/sale_management_menus.xml
+2026-11-07 07:11:00,190 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_management/security/ir.access.csv
+2026-11-07 07:11:00,481 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:00,520 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_management loaded in 2.12s, 482 queries (+482 other)
+2026-11-07 07:11:00,520 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_purchase (93/109)
+2026-11-07 07:11:00,657 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_purchase: creating or updating database tables
+2026-11-07 07:11:01,085 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_purchase/data/mail_templates.xml
+2026-11-07 07:11:01,136 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_purchase/views/product_views.xml
+2026-11-07 07:11:01,371 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_purchase/views/sale_order_views.xml
+2026-11-07 07:11:01,462 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_purchase/views/purchase_order_views.xml
+2026-11-07 07:11:01,876 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:01,985 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_purchase loaded in 1.47s, 234 queries (+234 other)
+2026-11-07 07:11:01,988 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_sms (94/109)
+2026-11-07 07:11:02,112 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_sms/security/ir.access.csv
+2026-11-07 07:11:03,020 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Caches invalidated, signaling through the database: ['default', 'stable']
+2026-11-07 07:11:03,160 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_sms loaded in 1.17s, 69 queries (+69 other)
+2026-11-07 07:11:03,161 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_stock (95/109)
+2026-11-07 07:11:04,272 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_stock: creating or updating database tables
+2026-11-07 07:11:05,361 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/views/product_views.xml
+2026-11-07 07:11:05,533 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/views/sale_order_views.xml
+2026-11-07 07:11:05,781 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/views/sale_order_line_views.xml
+2026-11-07 07:11:05,807 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/views/stock_route_views.xml
+2026-11-07 07:11:05,831 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/views/return_reason_views.xml
+2026-11-07 07:11:05,849 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/views/res_config_settings_views.xml
+2026-11-07 07:11:05,977 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/views/sale_stock_portal_template.xml
+2026-11-07 07:11:06,009 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/views/stock_lot_views.xml
+2026-11-07 07:11:06,028 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/views/res_users_views.xml
+2026-11-07 07:11:06,154 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/views/stock_picking_views.xml
+2026-11-07 07:11:06,264 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/views/stock_reference_views.xml
+2026-11-07 07:11:06,289 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/report/stock_report_deliveryslip.xml
+2026-11-07 07:11:06,318 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/report/return_label.xml
+2026-11-07 07:11:06,355 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/data/mail_templates.xml
+2026-11-07 07:11:06,391 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/data/return_reason_data.xml
+2026-11-07 07:11:06,421 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/data/sale_stock_data.xml
+2026-11-07 07:11:06,443 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/wizard/stock_replenishment_info.xml
+2026-11-07 07:11:06,506 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/wizard/stock_rules_report_views.xml
+2026-11-07 07:11:06,539 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_stock/security/ir.access.csv
+2026-11-07 07:11:07,058 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:07,148 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_stock loaded in 3.99s, 960 queries (+960 other)
+2026-11-07 07:11:07,148 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module spreadsheet_dashboard_sale (96/109)
+2026-11-07 07:11:07,258 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading spreadsheet_dashboard_sale/data/dashboards.xml
+2026-11-07 07:11:07,735 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Caches invalidated, signaling through the database: ['default', 'stable']
+2026-11-07 07:11:07,743 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module spreadsheet_dashboard_sale loaded in 0.59s, 41 queries (+41 other)
+2026-11-07 07:11:07,743 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module repair (97/109)
+2026-11-07 07:11:08,473 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module repair: creating or updating database tables
+2026-11-07 07:11:08,673 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of stock.picking.type.default_product_location_src_id in 8 records
+2026-11-07 07:11:08,682 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of stock.picking.type.default_product_location_dest_id in 8 records
+2026-11-07 07:11:08,688 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of stock.picking.type.default_remove_location_dest_id in 8 records
+2026-11-07 07:11:08,693 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of stock.picking.type.default_recycle_location_dest_id in 8 records
+2026-11-07 07:11:10,322 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/views/product_views.xml
+2026-11-07 07:11:10,628 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/views/stock_move_views.xml
+2026-11-07 07:11:10,643 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/views/repair_views.xml
+2026-11-07 07:11:11,045 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/views/sale_order_views.xml
+2026-11-07 07:11:11,100 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/views/stock_lot_views.xml
+2026-11-07 07:11:11,134 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/views/stock_picking_views.xml
+2026-11-07 07:11:11,284 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/views/stock_warehouse_views.xml
+2026-11-07 07:11:11,321 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/views/account_move_views.xml
+2026-11-07 07:11:11,440 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/views/res_partner_views.xml
+2026-11-07 07:11:11,513 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/report/repair_reports.xml
+2026-11-07 07:11:11,525 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/report/repair_templates_repair_order.xml
+2026-11-07 07:11:11,557 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/data/repair_data.xml
+2026-11-07 07:11:11,792 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/security/ir.access.csv
+2026-11-07 07:11:11,895 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading repair/wizard/repair_consumption_warning_views.xml
+2026-11-07 07:11:12,404 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:12,464 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module repair loaded in 4.72s, 1194 queries (+1194 other)
+2026-11-07 07:11:12,464 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_margin (98/109)
+2026-11-07 07:11:12,570 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_margin: creating or updating database tables
+2026-11-07 07:11:12,890 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_margin/views/sale_order_views.xml
+2026-11-07 07:11:13,127 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_margin/views/sale_order_template_views.xml
+2026-11-07 07:11:13,162 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_margin/report/sale_report_views.xml
+2026-11-07 07:11:13,407 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:13,420 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_margin loaded in 0.96s, 210 queries (+210 other)
+2026-11-07 07:11:13,420 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_pdf_quote_builder (99/109)
+2026-11-07 07:11:13,543 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_pdf_quote_builder: creating or updating database tables
+2026-11-07 07:11:13,562 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of product.document.form_field_ids
+2026-11-07 07:11:13,591 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of quotation.document.form_field_ids
+2026-11-07 07:11:14,093 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/data/ir_cron.xml
+2026-11-07 07:11:14,222 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/data/sale_pdf_form_field.xml
+2026-11-07 07:11:14,237 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/report/ir_actions_report.xml
+2026-11-07 07:11:14,252 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/product_document_views.xml
+2026-11-07 07:11:14,389 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/quotation_document_views.xml
+2026-11-07 07:11:14,467 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_order_template_views.xml
+2026-11-07 07:11:14,505 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_order_views.xml
+2026-11-07 07:11:14,576 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_pdf_form_field_views.xml
+2026-11-07 07:11:14,605 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_pdf_quote_builder_menus.xml
+2026-11-07 07:11:14,622 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/wizards/res_config_settings_views.xml
+2026-11-07 07:11:14,697 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_pdf_quote_builder/security/ir.access.csv
+2026-11-07 07:11:14,925 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:14,946 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_pdf_quote_builder loaded in 1.53s, 446 queries (+446 other)
+2026-11-07 07:11:14,946 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_purchase_stock (100/109)
+2026-11-07 07:11:15,043 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_purchase_stock: creating or updating database tables
+2026-11-07 07:11:15,326 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_purchase_stock/views/purchase_order_views.xml
+2026-11-07 07:11:15,485 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_purchase_stock/views/stock_picking_views.xml
+2026-11-07 07:11:15,643 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:15,666 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_purchase_stock loaded in 0.72s, 171 queries (+171 other)
+2026-11-07 07:11:15,666 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_service (101/109)
+2026-11-07 07:11:15,740 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_service: creating or updating database tables
+2026-11-07 07:11:16,064 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:16,069 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_service loaded in 0.40s, 80 queries (+80 other)
+2026-11-07 07:11:16,069 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module gt_repair_reauthorization (102/109)
+2026-11-07 07:11:16,181 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module gt_repair_reauthorization: creating or updating database tables
+2026-11-07 07:11:16,797 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading gt_repair_reauthorization/security/authorization_security.xml
+2026-11-07 07:11:17,109 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading gt_repair_reauthorization/security/ir.access.csv
+2026-11-07 07:11:17,259 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading gt_repair_reauthorization/views/authorization_views.xml
+2026-11-07 07:11:17,451 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading gt_repair_reauthorization/views/repair_views.xml
+2026-11-07 07:11:17,485 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading gt_repair_reauthorization/views/sale_order_views.xml
+2026-11-07 07:11:17,532 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading gt_repair_reauthorization/wizard/authorization_capture_views.xml
+2026-11-07 07:11:17,635 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:17,657 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module gt_repair_reauthorization loaded in 1.59s, 444 queries (+444 other)
+2026-11-07 07:11:17,657 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module purchase_repair (103/109)
+2026-11-07 07:11:17,748 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module purchase_repair: creating or updating database tables
+2026-11-07 07:11:17,909 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_repair/views/purchase_views.xml
+2026-11-07 07:11:18,065 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading purchase_repair/views/repair_views.xml
+2026-11-07 07:11:18,214 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:18,255 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module purchase_repair loaded in 0.60s, 109 queries (+109 other)
+2026-11-07 07:11:18,255 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_project (104/109)
+2026-11-07 07:11:18,441 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_project: creating or updating database tables
+2026-11-07 07:11:18,593 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of project.task.sale_order_id in 1 records
+2026-11-07 07:11:18,600 7344 INFO gt_reauth_p1_final_20261107 odoo.fields: Prepare computation of project.task.sale_line_id in 1 records
+2026-11-07 07:11:19,065 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/views/product_views.xml
+2026-11-07 07:11:19,372 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/views/project_task_views.xml
+2026-11-07 07:11:19,899 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/views/sale_order_line_views.xml
+2026-11-07 07:11:19,940 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/views/sale_order_views.xml
+2026-11-07 07:11:20,170 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/views/sale_project_portal_templates.xml
+2026-11-07 07:11:20,200 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/views/project_update_template.xml
+2026-11-07 07:11:20,226 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/views/project_sharing_views.xml
+2026-11-07 07:11:20,666 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/views/project_views.xml
+2026-11-07 07:11:20,884 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/views/project_task_type_views.xml
+2026-11-07 07:11:20,930 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/data/sale_project_data.xml
+2026-11-07 07:11:21,008 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/wizard/project_template_create_wizard.xml
+2026-11-07 07:11:21,055 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/report/account_analytic_line_views.xml
+2026-11-07 07:11:21,214 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/report/sale_report_views.xml
+2026-11-07 07:11:21,263 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/views/project_menus.xml
+2026-11-07 07:11:21,297 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project/security/ir.access.csv
+2026-11-07 07:11:21,673 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:22,140 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_project loaded in 3.89s, 1043 queries (+1043 other)
+2026-11-07 07:11:22,140 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_stock_margin (105/109)
+2026-11-07 07:11:22,301 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_stock_margin: creating or updating database tables
+2026-11-07 07:11:22,878 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:22,965 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_stock_margin loaded in 0.82s, 71 queries (+71 other)
+2026-11-07 07:11:22,965 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_project_margin (106/109)
+2026-11-07 07:11:23,125 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_project_margin: creating or updating database tables
+2026-11-07 07:11:23,423 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project_margin/views/project_task_views.xml
+2026-11-07 07:11:23,666 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project_margin/views/project_menus.xml
+2026-11-07 07:11:23,705 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading sale_project_margin/report/sale_report_views.xml
+2026-11-07 07:11:23,999 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:24,005 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_project_margin loaded in 1.04s, 150 queries (+150 other)
+2026-11-07 07:11:24,005 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_project_stock (107/109)
+2026-11-07 07:11:24,256 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_project_stock: creating or updating database tables
+2026-11-07 07:11:24,628 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:24,699 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_project_stock loaded in 0.69s, 110 queries (+110 other)
+2026-11-07 07:11:24,699 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_project_stock_account (108/109)
+2026-11-07 07:11:24,809 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_project_stock_account: creating or updating database tables
+2026-11-07 07:11:25,189 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:25,240 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_project_stock_account loaded in 0.54s, 63 queries (+63 other)
+2026-11-07 07:11:25,240 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Loading module sale_purchase_project (109/109)
+2026-11-07 07:11:25,412 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: module sale_purchase_project: creating or updating database tables
+2026-11-07 07:11:25,997 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:26,066 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Module sale_purchase_project loaded in 0.83s, 77 queries (+77 other)
+2026-11-07 07:11:26,066 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: 109 modules loaded in 80.76s, 18642 queries (+18642 extra)
+2026-11-07 07:11:26,070 7344 WARNING gt_reauth_p1_final_20261107 odoo.modules.module_graph: module supplier_rebate_recovery: not installable, skipped
+2026-11-07 07:11:26,072 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: loading 109 modules...
+2026-11-07 07:11:26,073 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: 109 modules loaded in 0.00s, 0 queries (+0 extra)
+2026-11-07 07:11:26,730 7344 ERROR gt_reauth_p1_final_20261107 odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['supplier_rebate_recovery']
+2026-11-07 07:11:27,030 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.rule.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,030 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.detection is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,211 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.tier is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,212 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.eligibility is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,212 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.transaction is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,212 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.calculation.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,212 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.accrual.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,213 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.claim.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,213 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.claim.response is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,213 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.historical.item is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,213 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.recovery.event is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,213 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.notification.engine is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,218 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.accrual.reversal is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,218 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.claim.operation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,218 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.claim.evidence.upload is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,219 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.detection.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,219 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.historical.scan.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,219 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.recovery.operation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,237 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.agreement is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,238 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.calculation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,238 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.accrual is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,283 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.accounting.config is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,284 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.claim is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,284 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.claim.evidence is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,284 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.claim.document is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,284 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model report.supplier_rebate_recovery.report_claim_official is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,284 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model report.supplier_rebate_recovery.report_claim_preview is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,284 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.exception is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,284 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.exception.observation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,284 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.detection.scope is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,285 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.historical.evaluation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,285 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.recovery.opportunity is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,285 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.historical.result is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,285 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.historical.scan is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,285 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.recovery.case is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,287 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.recovery.communication is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,287 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.recovery.negotiation is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,287 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.recovery.response is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,287 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.recovery.dispute is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,287 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.recovery.followup is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,288 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.settlement.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,288 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.settlement.guard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,288 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.settlement is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,288 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.notification.rule is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,288 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.notification.level is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,288 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.notification.event is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,288 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.dashboard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,289 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.reporting.service is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,289 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.report.snapshot is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,289 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model report.supplier_rebate_recovery.report_financial_snapshot is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,289 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.wizard.security is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,289 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.amendment.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,289 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.calculation.reason is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,289 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.settlement.match.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,290 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.settlement.match.candidate is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,290 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Model supplier.rebate.report.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2026-11-07 07:11:27,429 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: verifying fields for every extended model
+2026-11-07 07:11:29,297 7344 INFO gt_reauth_p1_final_20261107 odoo.modules.loading: Modules loaded.
+2026-11-07 07:11:29,348 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry changed, signaling through the database
+2026-11-07 07:11:29,366 7344 INFO gt_reauth_p1_final_20261107 odoo.registry: Registry loaded in 87.494s
+2026-11-07 07:11:29,367 7344 INFO gt_reauth_p1_final_20261107 odoo.service.server: Starting post tests
+2026-11-07 07:11:31,765 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_cancelling_quotation_after_capture_does_not_change_history ...
+2026-11-07 07:11:33,242 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_capture_requires_customer_evidence_and_explicit_scope_confirmation ...
+2026-11-07 07:11:34,045 7344 WARNING gt_reauth_p1_final_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x000001DCFFAB4F40, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 442, code _check_evidence>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 243, in test_capture_requires_customer_evidence_and_explicit_scope_confirmation
+    wizard.action_record_authorization()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 58, in action_record_authorization
+    repair, sale_order, scope_lines, totals = _build_original_snapshot(self)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 495, in _build_original_snapshot
+    _check_evidence(wizard)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 442, in _check_evidence
+    raise ValidationError(_("Customer approval evidence is required."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:11:34,073 7344 WARNING gt_reauth_p1_final_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x000001DC8231E020, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 444, code _check_evidence>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 251, in test_capture_requires_customer_evidence_and_explicit_scope_confirmation
+    wizard.action_record_authorization()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 58, in action_record_authorization
+    repair, sale_order, scope_lines, totals = _build_original_snapshot(self)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 495, in _build_original_snapshot
+    _check_evidence(wizard)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 444, in _check_evidence
+    raise ValidationError(_("Confirm that the evidence explicitly approves this customer, quotation revision, and displayed repair scope."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:11:34,079 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_confirmed_quotation_alone_is_not_customer_evidence ...
+2026-11-07 07:11:34,929 7344 WARNING gt_reauth_p1_final_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x000001DC8231EA70, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 442, code _check_evidence>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 368, in test_confirmed_quotation_alone_is_not_customer_evidence
+    wizard.action_record_authorization()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 58, in action_record_authorization
+    repair, sale_order, scope_lines, totals = _build_original_snapshot(self)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 495, in _build_original_snapshot
+    _check_evidence(wizard)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 442, in _check_evidence
+    raise ValidationError(_("Customer approval evidence is required."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:11:34,936 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_duplicate_capture_is_prevented_and_snapshots_cannot_be_edited_or_deleted ...
+2026-11-07 07:11:35,914 7344 WARNING gt_reauth_p1_final_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x000001DCFFF21C40, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 494, code _build_original_snapshot>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 387, in test_duplicate_capture_is_prevented_and_snapshots_cannot_be_edited_or_deleted
+    second_wizard.action_record_authorization()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 58, in action_record_authorization
+    repair, sale_order, scope_lines, totals = _build_original_snapshot(self)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 494, in _build_original_snapshot
+    raise UserError(_("An original authorization has already been recorded for this repair."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:11:35,935 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_file_evidence_is_stored_on_restricted_snapshot_without_public_attachment ...
+2026-11-07 07:11:36,987 7344 INFO gt_reauth_p1_final_20261107 odoo.models: Access Denied by ACLs for operation: read, uid: 18, model: gt.repair.authorization, field: evidence_file
+2026-11-07 07:11:37,139 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_manager_can_review_but_cannot_override_immutability ...
+2026-11-07 07:11:38,421 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_multi_company_isolation_and_cross_company_link_rejection ...
+2026-11-07 07:11:38,895 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.base.models.res_users: Group change: user 1 with IP n/a changed groups of user 1 who belonged to [58, 49, 30, 37, 45, 23, 46, 55, 35, 10, 9, 60, 19, 5, 16] with changes [(<Command.LINK: 4>, 6, 0)]
+2026-11-07 07:11:42,645 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.base.models.ir_access: Access Denied for operation: read on record ids: [5], uid: 18, model: gt.repair.authorization
+2026-11-07 07:11:42,671 7344 INFO gt_reauth_p1_final_20261107 odoo.models: Access Denied by ACLs for operation: read, uid: 18, model: gt.repair.authorization, field: evidence_email
+2026-11-07 07:11:43,235 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_original_snapshot_preserves_scope_taxes_discounts_and_totals ...
+2026-11-07 07:11:44,071 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_repair_without_quotation_cannot_capture_an_invoice_as_customer_approval ...
+2026-11-07 07:11:44,322 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_shared_quotation_creates_repair_scoped_snapshots ...
+2026-11-07 07:11:45,443 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_source_edits_and_deletion_do_not_change_finalized_snapshot ...
+2026-11-07 07:11:46,387 7344 INFO gt_reauth_p1_final_20261107 odoo.models.unlink: User #1 deleted sale.order.line records with IDs: [23]
+2026-11-07 07:11:46,440 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_stale_capture_is_rejected_without_creating_snapshot ...
+2026-11-07 07:11:47,277 7344 WARNING gt_reauth_p1_final_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x000001DCFD7BAE40, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 498, code _build_original_snapshot>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 264, in test_stale_capture_is_rejected_without_creating_snapshot
+    wizard.action_record_authorization()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\wizard\authorization_capture.py", line 58, in action_record_authorization
+    repair, sale_order, scope_lines, totals = _build_original_snapshot(self)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 498, in _build_original_snapshot
+    raise UserError(_("The quotation has changed; review the current scope before recording customer approval."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:11:47,287 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_technician_can_view_but_cannot_capture_edit_delete_or_read_evidence ...
+2026-11-07 07:11:48,288 7344 INFO gt_reauth_p1_final_20261107 odoo.models: Access Denied by ACLs for operation: read, uid: 18, model: gt.repair.authorization, field: evidence_email
+2026-11-07 07:11:48,332 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_unmapped_and_cancelled_quotation_lines_are_rejected ...
+2026-11-07 07:11:49,366 7344 WARNING gt_reauth_p1_final_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x000001DC803A2700, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 370, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 296, in test_unmapped_and_cancelled_quotation_lines_are_rejected
+    repair.with_user(self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 48, in action_open_original_authorization_capture
+    scope_lines = _validated_scope_lines(self, sale_order)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 370, in _validated_scope_lines
+    raise UserError(_("A quotation line cannot be matched to this repair. Remove or map the ambiguous line before recording approval."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:11:50,000 7344 WARNING gt_reauth_p1_final_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x000001DC803A2CD0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 335, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 301, in test_unmapped_and_cancelled_quotation_lines_are_rejected
+    repair.with_user(self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 48, in action_open_original_authorization_capture
+    scope_lines = _validated_scope_lines(self, sale_order)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 335, in _validated_scope_lines
+    raise UserError(_("The quotation is cancelled; choose a current customer-facing quotation."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:11:50,005 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.gt_repair_reauthorization.tests.test_authorization_capture: Starting TestRepairAuthorizationCapture.test_unrelated_quotation_and_customer_mismatch_are_rejected ...
+2026-11-07 07:11:50,502 7344 WARNING gt_reauth_p1_final_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x000001DC803A1F40, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 329, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 275, in test_unrelated_quotation_and_customer_mismatch_are_rejected
+    _validated_scope_lines(repair, unrelated)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 329, in _validated_scope_lines
+    raise UserError(_("This quotation does not belong to the selected repair."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:11:50,631 7344 WARNING gt_reauth_p1_final_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x000001DC803A30B0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 417, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 278, in test_unrelated_quotation_and_customer_mismatch_are_rejected
+    repair.with_user(self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 48, in action_open_original_authorization_capture
+    scope_lines = _validated_scope_lines(self, sale_order)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 417, in _validated_scope_lines
+    raise UserError(_("No identifiable chargeable repair lines are linked to this quotation."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:11:51,174 7344 WARNING gt_reauth_p1_final_20261107 odoo.tools.translate: no translation language detected, skipping translation <frame at 0x000001DC803A30B0, file 'c:\\pycharmprojects\\odoo20\\custom_addons\\gt_repair_reauthorization\\models\\authorization.py', line 333, code _validated_scope_lines>
+Stack (most recent call last):
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo-bin", line 6, in <module>
+    odoo.cli.main()
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\command.py", line 139, in main
+    command().run(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 127, in run
+    main(args)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\cli\server.py", line 118, in main
+    rc = server.start(preload=config['db_name'], stop=stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1609, in start
+    rc = server.run(preload, stop)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 587, in run
+    rc = preload_registries(preload)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\service\server.py", line 1537, in preload_registries
+    result = loader.run_suite(post_install_suite, global_report=registry._assertion_report)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\loader.py", line 113, in run_suite
+    suite(results)
+  File "C:\Program Files\Python314\Lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\suite.py", line 80, in run
+    test(result)
+  File "C:\Program Files\Python314\Lib\unittest\case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 216, in run
+    self._callTestMethod(testMethod)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tests\case.py", line 184, in _callTestMethod
+    method()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\tests\test_authorization_capture.py", line 283, in test_unrelated_quotation_and_customer_mismatch_are_rejected
+    repair.with_user(self.adviser).action_open_original_authorization_capture()
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\repair_order.py", line 48, in action_open_original_authorization_capture
+    scope_lines = _validated_scope_lines(self, sale_order)
+  File "c:\pycharmprojects\odoo20\custom_addons\gt_repair_reauthorization\models\authorization.py", line 333, in _validated_scope_lines
+    raise ValidationError(_("The quotation customer does not match the repair customer."))
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1138, in get_text_alias
+    module, lang = _get_translation_source(1)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1127, in _get_translation_source
+    lang = lang or _get_lang(frame, default_lang)
+  File "C:\PycharmProjects\odoo20\odoo-20.0\odoo\tools\translate.py", line 1120, in _get_lang
+    _logger.log(log_level, 'no translation language detected, skipping translation %s', frame, stack_info=True)
+2026-11-07 07:11:51,217 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.base.models.ir_attachment: filestore gc 14 checked, 3 removed
+2026-11-07 07:11:51,233 7344 INFO gt_reauth_p1_final_20261107 odoo.service.server: 15 post-tests in 21.87s, 4346 queries
+2026-11-07 07:11:51,233 7344 INFO gt_reauth_p1_final_20261107 odoo.tests.stats: gt_repair_reauthorization: 17 tests 21.67s 4346 queries
+2026-11-07 07:11:51,233 7344 INFO gt_reauth_p1_final_20261107 odoo.tests.result: 0 failed, 0 error(s) of 15 tests when loading database 'gt_reauth_p1_final_20261107'
+2026-11-07 07:11:51,233 7344 INFO gt_reauth_p1_final_20261107 odoo.service.server.ThreadedServer: Initiating shutdown
+2026-11-07 07:11:51,233 7344 INFO gt_reauth_p1_final_20261107 odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-11-07 07:11:51,234 7344 INFO gt_reauth_p1_final_20261107 odoo.addons.bus.websocket: Disconnecting 0 websockets
+2026-11-07 07:11:51,345 7344 INFO gt_reauth_p1_final_20261107 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 
