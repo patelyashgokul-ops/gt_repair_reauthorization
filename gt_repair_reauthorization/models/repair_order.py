@@ -5,7 +5,6 @@ from .authorization import (
     ADVISER_GROUP,
     _fingerprint_repair_scope,
     _format_scope_preview,
-    _scope_totals,
     _validated_scope_lines,
 )
 

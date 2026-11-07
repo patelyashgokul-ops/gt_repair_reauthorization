@@ -7,7 +7,6 @@ from psycopg2 import IntegrityError
 
 from odoo import Command, _, api, fields, models
 from odoo.exceptions import AccessError, UserError, ValidationError
-from odoo.tools import float_compare
 
 
 ADVISER_GROUP = "gt_repair_reauthorization.group_repair_authorization_adviser"
@@ -40,7 +39,12 @@ class RepairAuthorization(models.Model):
     company_id = fields.Many2one(
         "res.company", required=True, readonly=True, index=True, ondelete="restrict",
     )
+    repair_reference = fields.Char(required=True, readonly=True)
+    quotation_reference = fields.Char(required=True, readonly=True)
+    customer_name = fields.Char(required=True, readonly=True)
+    company_name = fields.Char(required=True, readonly=True)
     currency_id = fields.Many2one("res.currency", required=True, readonly=True, ondelete="restrict")
+    currency_code = fields.Char(required=True, readonly=True)
     version = fields.Integer(required=True, readonly=True, default=1, copy=False)
     state = fields.Selection(
         [("authorized", "Customer Authorized")],
@@ -125,7 +129,12 @@ class RepairAuthorization(models.Model):
             "sale_order_id": sale_order.id,
             "partner_id": repair.partner_id.id,
             "company_id": repair.company_id.id,
+            "repair_reference": repair.name,
+            "quotation_reference": sale_order.name,
+            "customer_name": repair.partner_id.display_name,
+            "company_name": repair.company_id.display_name,
             "currency_id": sale_order.currency_id.id,
+            "currency_code": sale_order.currency_id.name,
             "version": 1,
             "state": "authorized",
             "authorization_datetime": fields.Datetime.now(),
@@ -162,6 +171,7 @@ class RepairAuthorizationLine(models.Model):
     )
     company_id = fields.Many2one("res.company", required=True, readonly=True, index=True, ondelete="restrict")
     currency_id = fields.Many2one("res.currency", required=True, readonly=True, ondelete="restrict")
+    currency_code = fields.Char(required=True, readonly=True)
     sequence = fields.Integer(required=True, readonly=True)
     source_model = fields.Char(required=True, readonly=True)
     source_sale_line_db_id = fields.Integer(string="Original Quotation Line ID", required=True, readonly=True, index=True)
@@ -178,6 +188,8 @@ class RepairAuthorizationLine(models.Model):
         "repair.service.line", string="Repair Service", readonly=True,
         check_company=True, ondelete="set null",
     )
+    source_repair_move_db_ids = fields.Json(readonly=True)
+    source_repair_service_line_db_id = fields.Integer(readonly=True)
     source_line_reference = fields.Char(required=True, readonly=True)
     scope_type = fields.Selection(
         [("part", "Part"), ("service", "Service"), ("other", "Other Quoted Work")],
@@ -186,11 +198,13 @@ class RepairAuthorizationLine(models.Model):
     product_id = fields.Many2one(
         "product.product", string="Product", readonly=True, check_company=True, ondelete="set null",
     )
+    product_db_id = fields.Integer(required=True, readonly=True)
     product_name = fields.Char(required=True, readonly=True)
     product_default_code = fields.Char(readonly=True)
     description = fields.Text(required=True, readonly=True)
     quantity = fields.Float(required=True, readonly=True, digits="Product Unit")
     uom_id = fields.Many2one("uom.uom", string="Unit of Measure", readonly=True, ondelete="set null")
+    uom_db_id = fields.Integer(required=True, readonly=True)
     uom_name = fields.Char(required=True, readonly=True)
     price_unit = fields.Monetary(currency_field="currency_id", required=True, readonly=True)
     discount = fields.Float(readonly=True, digits="Discount")
@@ -375,14 +389,21 @@ def _validated_scope_lines(repair, sale_order):
             "source_sale_line_id": line.id,
             "source_repair_move_ids": [Command.set(moves.filtered(lambda move: move.repair_id == repair).ids)],
             "source_repair_service_line_id": service_line.id if service_line and service_line.repair_id == repair else False,
+            "source_repair_move_db_ids": moves.filtered(lambda move: move.repair_id == repair).ids,
+            "source_repair_service_line_db_id": service_line.id if service_line and service_line.repair_id == repair else 0,
             "source_line_reference": f"{sale_order.name or sale_order.id} / line {line.sequence} / record {line.id}",
+            "company_id": repair.company_id.id,
+            "currency_id": sale_order.currency_id.id,
+            "currency_code": sale_order.currency_id.name,
             "scope_type": scope_type,
             "product_id": line.product_id.id,
+            "product_db_id": line.product_id.id,
             "product_name": line.product_id.display_name,
             "product_default_code": line.product_id.default_code or False,
             "description": line.name or line.product_id.display_name,
             "quantity": line.product_uom_qty,
             "uom_id": line.product_uom_id.id,
+            "uom_db_id": line.product_uom_id.id,
             "uom_name": line.product_uom_id.display_name,
             "price_unit": line.price_unit,
             "discount": line.discount,

@@ -5,8 +5,6 @@ from ..models.authorization import (
     ADVISER_GROUP,
     _build_original_snapshot,
     _fingerprint_repair_scope,
-    _scope_totals,
-    _validated_scope_lines,
 )
 
 
@@ -55,8 +53,6 @@ class RepairAuthorizationCaptureWizard(models.TransientModel):
         if not self.env.user.has_group(ADVISER_GROUP):
             raise AccessError(_("You are not authorized to record customer approval."))
         repair, sale_order, scope_lines, totals = _build_original_snapshot(self)
-        if _fingerprint_repair_scope(repair, sale_order) != self.source_fingerprint:
-            raise UserError(_("The quotation has changed; review the current scope before recording customer approval."))
         authorization = self.env["gt.repair.authorization"]._capture_original(
             repair,
             sale_order,
